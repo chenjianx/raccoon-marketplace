@@ -1418,13 +1418,9 @@ items:
     author: jupyter-ai-contrib
     url: https://github.com/jupyter-ai-contrib/jupyter-server-mcp
     tags:
-      - jupyter
-      - jupyterlab
-      - notebooks
-      - python
-      - data-science
       - code-execution
-      - mcp-server
+      - data-analysis
+      - development
     prerequisites:
       - Python 3.10 or later
       - Jupyter AI 3.0 or later installed in the same environment as JupyterLab
