@@ -4,10 +4,7 @@ description: Manages Cloudflare resources including Workers, KV stores, R2 stora
   natural language interactions.
 author: cloudflare
 url: https://github.com/cloudflare/mcp-server-cloudflare
-tags:
-  - database-management
-  - storage
-  - development
+category: development
 content:
   - name: Remote MCP - Observability
     prerequisites:

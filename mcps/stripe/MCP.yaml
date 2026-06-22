@@ -4,10 +4,7 @@ description: Enables AI agents to interact with Stripe APIs, supporting operatio
   processing, product creation, and invoice handling through function calling.
 author: stripe
 url: https://github.com/stripe/agent-toolkit
-tags:
-  - api-integration
-  - automation
-  - workflow
+category: business
 prerequisites:
   - Stripe account
 content:

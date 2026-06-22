@@ -4,10 +4,7 @@ description: Provides comprehensive filesystem operations including reading, wri
   management, and advanced file editing with pattern matching and formatting capabilities.
 author: modelcontextprotocol
 url: https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem
-tags:
-  - file-search
-  - storage
-  - automation
+category: development
 content:
   - name: NPX
     prerequisites:

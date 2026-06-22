@@ -4,10 +4,7 @@ description: Enables interaction with Kubernetes clusters through Metoro's obser
   telemetry and monitoring capabilities via natural language queries.
 author: metoro-io
 url: https://github.com/metoro-io/metoro-mcp-server
-tags:
-  - application-monitoring
-  - debugging
-  - development
+category: observability
 content:
   - name: Go Binary
     content: |

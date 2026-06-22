@@ -4,10 +4,7 @@ description: Query and analyze data using Axiom Processing Language (APL), enabl
   datasets through natural language.
 author: axiomhq
 url: https://github.com/axiomhq/mcp-server-axiom
-tags:
-  - application-monitoring
-  - data-analysis
-  - database-management
+category: observability
 content:
   - name: Go Binary
     content: |

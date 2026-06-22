@@ -5,10 +5,7 @@ description: Official Microsoft MCP server providing browser automation capabili
   visually-tuned models. Supports fast and lightweight automation with deterministic tool application.
 author: microsoft
 url: https://github.com/microsoft/playwright-mcp
-tags:
-  - web-automation
-  - web-scraping
-  - testing
+category: web-automation
 content:
   - name: NPX
     prerequisites:

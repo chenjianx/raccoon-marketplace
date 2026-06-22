@@ -4,10 +4,7 @@ description: The official Supabase MCP server connects your AI tools to Supabase
   databases, managing tables, fetching config, and querying data on your behalf.
 author: supabase
 url: https://supabase.com/docs/guides/mcp
-tags:
-  - database
-  - postgresql
-  - storage
+category: data
 prerequisites:
   - Supabase account
 content:

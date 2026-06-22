@@ -4,10 +4,7 @@ description: Comprehensive MCP server for Atlassian tools (Confluence and Jira) 
   Center deployments with multiple authentication methods including API tokens, Personal Access Tokens, and OAuth 2.0.
 author: sooperset
 url: https://github.com/sooperset/mcp-atlassian
-tags:
-  - project-management
-  - documentation
-  - collaboration
+category: productivity
 prerequisites:
   - Docker
   - Atlassian account (Cloud or Server/Data Center)
