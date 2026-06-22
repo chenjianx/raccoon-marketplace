@@ -8,9 +8,6 @@ description: >-
   for Nx workspace commands, custom Webpack configurations, or non-Angular CLI
   build systems like Vite standalone or esbuild direct usage.
 metadata:
-  suggest_for:
-    extension:
-      - "*.json"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

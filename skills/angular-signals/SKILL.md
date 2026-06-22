@@ -7,9 +7,6 @@ description: >-
   on state management questions, converting from BehaviorSubject/Observable
   patterns to signals, or implementing reactive data flows.
 metadata:
-  suggest_for:
-    extension:
-      - "*.ts"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

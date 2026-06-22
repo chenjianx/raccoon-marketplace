@@ -519,28 +519,6 @@ items:
     name: Codegen
     description: Enables parsing codebases and executing codemods through standardized model inference, supporting various
       LLM providers via integration with the Codegen SDK.
-    suggest_for:
-      extension:
-        - "*.js"
-        - "*.jsx"
-        - "*.ts"
-        - "*.tsx"
-        - "*.py"
-        - "*.rb"
-        - "*.php"
-        - "*.java"
-        - "*.kt"
-        - "*.kts"
-        - "*.go"
-        - "*.rs"
-        - "*.cs"
-        - "*.cpp"
-        - "*.cc"
-        - "*.c"
-        - "*.h"
-        - "*.hpp"
-        - "*.swift"
-        - "*.dart"
     author: codegen-sh
     url: https://github.com/codegen-sh/codegen-sdk/tree/develop/codegen-examples/examples/codegen-mcp-server
     tags:
@@ -658,11 +636,6 @@ items:
     description: A MCP server for interacting with dbt, providing AI agents with context from dbt Core, dbt Fusion, and dbt
       Platform. Supports SQL execution, Semantic Layer queries, project discovery, dbt CLI operations, Admin API
       management, code generation, and column-level lineage tracing.
-    suggest_for:
-      extension:
-        - "*.sql"
-        - "*.yml"
-        - "*.yaml"
     author: dbt-labs
     url: https://github.com/dbt-labs/dbt-mcp
     tags:
@@ -765,13 +738,6 @@ items:
     name: Code Interpreter
     description: Adds secure code execution capabilities to Claude Desktop using E2B Sandbox, supporting both JavaScript and
       Python environments.
-    suggest_for:
-      extension:
-        - "*.py"
-        - "*.js"
-        - "*.jsx"
-        - "*.ts"
-        - "*.tsx"
     author: e2b-dev
     url: https://github.com/e2b-dev/mcp-server
     tags:
@@ -931,19 +897,6 @@ items:
     description: Brings Figma directly into your workflow by providing important design information and context to AI agents
       generating code from Figma design files. Enables code generation from selected frames, design context extraction,
       and Code Connect integration.
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.css"
-        - "*.scss"
-        - "*.sass"
-        - "*.less"
-        - "*.js"
-        - "*.jsx"
-        - "*.ts"
-        - "*.tsx"
-        - "*.vue"
-        - "*.svelte"
     author: figma
     url: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server
     tags:
@@ -1379,23 +1332,6 @@ items:
     name: Google Maps Platform Code Assist
     description: Official Google Maps Platform MCP for AI-powered code assistance. Provides tools to generate client-side
       and server-side code for Maps, Routes, and Places APIs, helping developers build geospatial applications faster.
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.js"
-        - "*.jsx"
-        - "*.ts"
-        - "*.tsx"
-        - "*.java"
-        - "*.kt"
-        - "*.kts"
-        - "*.swift"
-        - "*.dart"
-        - "*.py"
-        - "*.go"
-        - "*.php"
-        - "*.rb"
-        - "*.cs"
     author: googlemaps
     url: https://github.com/googlemaps/platform-ai
     tags:
@@ -1463,13 +1399,6 @@ items:
       extension:
         - "*.idb"
         - "*.i64"
-        - "*.exe"
-        - "*.dll"
-        - "*.so"
-        - "*.dylib"
-        - "*.elf"
-        - "*.bin"
-        - "*.wasm"
     author: mrexodia
     url: https://github.com/mrexodia/ida-pro-mcp
     tags:
@@ -1554,7 +1483,7 @@ items:
       search, error tracking, and extensible skills system for Laravel applications.
     suggest_for:
       extension:
-        - "*.php"
+        - "*.blade.php"
     author: laravel
     url: https://github.com/laravel/boost
     tags:
@@ -1743,7 +1672,6 @@ items:
       initialization, schema reading, and query execution.
     suggest_for:
       extension:
-        - "*.sql"
         - "*.duckdb"
     author: motherduckdb
     url: https://github.com/motherduckdb/mcp-server-motherduck
@@ -1943,9 +1871,6 @@ items:
     name: Neon Database
     description: Enables natural language interaction with Neon PostgreSQL databases, supporting project management, schema
       migrations, SQL queries, and database operations through the Neon API.
-    suggest_for:
-      extension:
-        - "*.sql"
     author: neondatabase
     url: https://github.com/neondatabase/mcp-server-neon
     tags:
@@ -2165,13 +2090,6 @@ items:
     description: Official Microsoft MCP server providing browser automation capabilities using Playwright. Enables LLMs to
       interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or
       visually-tuned models. Supports fast and lightweight automation with deterministic tool application.
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.js"
-        - "*.jsx"
-        - "*.ts"
-        - "*.tsx"
     author: microsoft
     url: https://github.com/microsoft/playwright-mcp
     tags:
@@ -2231,9 +2149,6 @@ items:
     name: PostgreSQL Reader
     description: Provides read-only access to PostgreSQL databases, allowing LLMs to inspect database schemas and execute
       read-only queries within protected transactions.
-    suggest_for:
-      extension:
-        - "*.sql"
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres
     tags:
@@ -2267,9 +2182,6 @@ items:
     name: Postgrest
     description: Enables database operations on PostgreSQL through PostgREST, supporting SQL-to-REST conversion and direct
       API requests for querying and modifying data.
-    suggest_for:
-      extension:
-        - "*.sql"
     author: supabase-community
     url: https://github.com/supabase-community/mcp-supabase/tree/HEAD/packages/mcp-server-postgrest
     tags:
@@ -2351,11 +2263,6 @@ items:
     name: Puppeteer
     description: Provides browser automation capabilities using Puppeteer, enabling web page interaction, screenshots, and
       JavaScript execution in a real browser environment.
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.js"
-        - "*.ts"
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer
     tags:
@@ -2791,11 +2698,8 @@ items:
       data analysis, and automated business insight generation.
     suggest_for:
       extension:
-        - "*.sql"
         - "*.sqlite"
         - "*.sqlite3"
-        - "*.db"
-        - "*.db3"
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite
     tags:
@@ -2867,9 +2771,6 @@ items:
     name: Supabase
     description: The official Supabase MCP server connects your AI tools to Supabase to perform tasks like launching
       databases, managing tables, fetching config, and querying data on your behalf.
-    suggest_for:
-      extension:
-        - "*.sql"
     author: supabase
     url: https://supabase.com/docs/guides/mcp
     tags:

@@ -5,16 +5,6 @@ description: >-
   resolution, sharpness, and clarity. Perfect for preparing images for
   presentations, documentation, or social media posts.
 metadata:
-  suggest_for:
-    extension:
-      - "*.png"
-      - "*.jpg"
-      - "*.jpeg"
-      - "*.webp"
-      - "*.gif"
-      - "*.bmp"
-      - "*.tif"
-      - "*.tiff"
   category: creative-media
   source:
     repository: 'https://github.com/ComposioHQ/awesome-claude-skills'

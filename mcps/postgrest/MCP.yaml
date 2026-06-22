@@ -2,9 +2,6 @@ id: postgrest
 name: Postgrest
 description: Enables database operations on PostgreSQL through PostgREST, supporting SQL-to-REST conversion and direct
   API requests for querying and modifying data.
-suggest_for:
-  extension:
-    - "*.sql"
 author: supabase-community
 url: https://github.com/supabase-community/mcp-supabase/tree/HEAD/packages/mcp-server-postgrest
 tags:

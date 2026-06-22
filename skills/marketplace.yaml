@@ -13,13 +13,6 @@ items:
       outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to
       collaborative partnership.
     category: business
-    suggest_for:
-      extension:
-        - "*.md"
-        - "*.mdx"
-        - "*.txt"
-        - "*.rst"
-        - "*.adoc"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/content-research-writer
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/content-research-writer/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/content-research-writer.tar.gz
@@ -37,15 +30,6 @@ items:
       to use. The agent should use this skill whenever asked to write some sort of internal communications (status
       reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
     category: business
-    suggest_for:
-      extension:
-        - "*.md"
-        - "*.mdx"
-        - "*.txt"
-        - "*.rst"
-        - "*.adoc"
-        - "*.docx"
-        - "*.odt"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/internal-comms
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/internal-comms/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/internal-comms.tar.gz
@@ -64,18 +48,6 @@ items:
       feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to
       listen. Perfect for professionals seeking to improve their communication and leadership skills.
     category: business
-    suggest_for:
-      extension:
-        - "*.txt"
-        - "*.md"
-        - "*.srt"
-        - "*.vtt"
-        - "*.mp3"
-        - "*.wav"
-        - "*.m4a"
-        - "*.mp4"
-        - "*.webm"
-        - "*.docx"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/meeting-insights-analyzer
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/meeting-insights-analyzer/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/meeting-insights-analyzer.tar.gz
@@ -85,11 +57,6 @@ items:
       user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never
       copying existing artists' work to avoid copyright violations.
     category: creative-media
-    suggest_for:
-      extension:
-        - "*.png"
-        - "*.pdf"
-        - "*.md"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/canvas-design
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/canvas-design/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/canvas-design.tar.gz
@@ -98,16 +65,6 @@ items:
       Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect
       for preparing images for presentations, documentation, or social media posts.
     category: creative-media
-    suggest_for:
-      extension:
-        - "*.png"
-        - "*.jpg"
-        - "*.jpeg"
-        - "*.webp"
-        - "*.gif"
-        - "*.bmp"
-        - "*.tif"
-        - "*.tiff"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/image-enhancer
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/image-enhancer/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/image-enhancer.tar.gz
@@ -117,9 +74,6 @@ items:
       animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from
       descriptions like "make me a GIF for Slack of X doing Y".
     category: creative-media
-    suggest_for:
-      extension:
-        - "*.gif"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/slack-gif-creator
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/slack-gif-creator/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/slack-gif-creator.tar.gz
@@ -129,14 +83,6 @@ items:
       etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or
       can generate a new theme on-the-fly.
     category: creative-media
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.md"
-        - "*.mdx"
-        - "*.pdf"
-        - "*.pptx"
-        - "*.docx"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/theme-factory
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/theme-factory/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/theme-factory.tar.gz
@@ -166,12 +112,8 @@ items:
     category: development
     suggest_for:
       extension:
-        - "*.ts"
-        - "*.html"
-        - "*.css"
-        - "*.scss"
-        - "*.sass"
-        - "*.less"
+        - "*.component.ts"
+        - "*.component.html"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-component
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-component/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-component.tar.gz
@@ -182,9 +124,6 @@ items:
       singleton vs scoped services. Triggers on service creation, configuring providers, using injection tokens, or
       understanding DI hierarchy.
     category: development
-    suggest_for:
-      extension:
-        - "*.ts"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-di
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-di/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-di.tar.gz
@@ -197,8 +136,7 @@ items:
     category: development
     suggest_for:
       extension:
-        - "*.ts"
-        - "*.html"
+        - "*.directive.ts"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-directives
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-directives/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-directives.tar.gz
@@ -210,10 +148,6 @@ items:
       Forms are experimental but recommended for new Angular projects. Don't use for template-driven forms without
       signals or third-party form libraries like Formly or ngx-formly.
     category: development
-    suggest_for:
-      extension:
-        - "*.ts"
-        - "*.html"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-forms
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-forms/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-forms.tar.gz
@@ -223,9 +157,6 @@ items:
       data loading with signals, request/response handling, and interceptors. Triggers on data fetching, API
       integration, loading states, error handling, or converting Observable-based HTTP to signal-based patterns.
     category: development
-    suggest_for:
-      extension:
-        - "*.ts"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-http
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-http/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-http.tar.gz
@@ -236,9 +167,6 @@ items:
       route configuration, adding authentication guards, implementing lazy loading, or reading route parameters with
       signals.
     category: development
-    suggest_for:
-      extension:
-        - "*.ts"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-routing
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-routing/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-routing.tar.gz
@@ -249,9 +177,6 @@ items:
       state management questions, converting from BehaviorSubject/Observable patterns to signals, or implementing
       reactive data flows.
     category: development
-    suggest_for:
-      extension:
-        - "*.ts"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-signals
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-signals/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-signals.tar.gz
@@ -261,10 +186,6 @@ items:
       strategies, prerendering static pages, and handling browser-only APIs. Triggers on SSR configuration, fixing
       hydration mismatches, prerendering routes, or making code SSR-compatible.
     category: development
-    suggest_for:
-      extension:
-        - "*.ts"
-        - "*.html"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-ssr
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-ssr/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-ssr.tar.gz
@@ -276,9 +197,6 @@ items:
       test infrastructure. Don't use for E2E testing with Cypress or Playwright, or for testing non-Angular
       JavaScript/TypeScript code.
     category: development
-    suggest_for:
-      extension:
-        - "*.ts"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-testing
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-testing/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-testing.tar.gz
@@ -290,9 +208,6 @@ items:
       workspace commands, custom Webpack configurations, or non-Angular CLI build systems like Vite standalone or
       esbuild direct usage.
     category: development
-    suggest_for:
-      extension:
-        - "*.json"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/angular-tooling
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/angular-tooling/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/angular-tooling.tar.gz
@@ -302,15 +217,6 @@ items:
       (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui
       components - not for simple single-file HTML/JSX artifacts.
     category: development
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.css"
-        - "*.scss"
-        - "*.js"
-        - "*.jsx"
-        - "*.ts"
-        - "*.tsx"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/artifacts-builder
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/artifacts-builder/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/artifacts-builder.tar.gz
@@ -337,11 +243,6 @@ items:
       Skills for analytics engineering with dbt - building models, writing tests, querying the semantic layer,
       troubleshooting jobs, and more. Use when doing any dbt analytics engineering work.
     category: development
-    suggest_for:
-      extension:
-        - "*.sql"
-        - "*.yml"
-        - "*.yaml"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/dbt
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/dbt/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/dbt.tar.gz
@@ -350,11 +251,6 @@ items:
       Skills for migrating dbt projects - moving from dbt Core to the Fusion engine or across data platforms. Use when
       migrating dbt projects between platforms or to dbt Fusion.
     category: development
-    suggest_for:
-      extension:
-        - "*.sql"
-        - "*.yml"
-        - "*.yaml"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/dbt-migration
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/dbt-migration/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/dbt-migration.tar.gz
@@ -373,19 +269,6 @@ items:
       Figma URLs, or asks to build components matching Figma specs. For Figma canvas writes via `use_figma`, use
       `figma-use`.
     category: development
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.css"
-        - "*.scss"
-        - "*.sass"
-        - "*.less"
-        - "*.js"
-        - "*.jsx"
-        - "*.ts"
-        - "*.tsx"
-        - "*.vue"
-        - "*.svelte"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/figma-implement-design
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/figma-implement-design/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/figma-implement-design.tar.gz
@@ -394,20 +277,6 @@ items:
       Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with
       aesthetic direction, typography, and making choices that don't read as templated defaults.
     category: development
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.css"
-        - "*.scss"
-        - "*.sass"
-        - "*.less"
-        - "*.js"
-        - "*.jsx"
-        - "*.ts"
-        - "*.tsx"
-        - "*.vue"
-        - "*.svelte"
-        - "*.astro"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/frontend-design
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/frontend-design/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/frontend-design.tar.gz
@@ -470,10 +339,6 @@ items:
       flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render
       props, context providers, or component architecture. Includes React 19 API changes.
     category: development
-    suggest_for:
-      extension:
-        - "*.jsx"
-        - "*.tsx"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/vercel-composition-patterns
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/vercel-composition-patterns/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/vercel-composition-patterns.tar.gz
@@ -483,10 +348,6 @@ items:
       writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks
       involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.
     category: development
-    suggest_for:
-      extension:
-        - "*.jsx"
-        - "*.tsx"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/vercel-react-best-practices
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/vercel-react-best-practices/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/vercel-react-best-practices.tar.gz
@@ -495,18 +356,6 @@ items:
       Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility",
       "audit design", "review UX", or "check my site against best practices".
     category: development
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.css"
-        - "*.scss"
-        - "*.sass"
-        - "*.less"
-        - "*.jsx"
-        - "*.tsx"
-        - "*.vue"
-        - "*.svelte"
-        - "*.astro"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/web-design-guidelines
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/web-design-guidelines/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/web-design-guidelines.tar.gz
@@ -515,13 +364,6 @@ items:
       Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend
       functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
     category: development
-    suggest_for:
-      extension:
-        - "*.html"
-        - "*.js"
-        - "*.jsx"
-        - "*.ts"
-        - "*.tsx"
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/webapp-testing
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/webapp-testing/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/webapp-testing.tar.gz

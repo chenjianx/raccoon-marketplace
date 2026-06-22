@@ -7,11 +7,6 @@ description: >-
   never copying existing artists' work to avoid copyright violations.
 license: Complete terms in LICENSE.txt
 metadata:
-  suggest_for:
-    extension:
-      - "*.png"
-      - "*.pdf"
-      - "*.md"
   category: creative-media
   source:
     repository: 'https://github.com/ComposioHQ/awesome-claude-skills'

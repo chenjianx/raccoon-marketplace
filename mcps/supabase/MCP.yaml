@@ -2,9 +2,6 @@ id: supabase
 name: Supabase
 description: The official Supabase MCP server connects your AI tools to Supabase to perform tasks like launching
   databases, managing tables, fetching config, and querying data on your behalf.
-suggest_for:
-  extension:
-    - "*.sql"
 author: supabase
 url: https://supabase.com/docs/guides/mcp
 tags:

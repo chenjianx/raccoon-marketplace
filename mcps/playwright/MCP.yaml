@@ -3,13 +3,6 @@ name: Playwright
 description: Official Microsoft MCP server providing browser automation capabilities using Playwright. Enables LLMs to
   interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or
   visually-tuned models. Supports fast and lightweight automation with deterministic tool application.
-suggest_for:
-  extension:
-    - "*.html"
-    - "*.js"
-    - "*.jsx"
-    - "*.ts"
-    - "*.tsx"
 author: microsoft
 url: https://github.com/microsoft/playwright-mcp
 tags:

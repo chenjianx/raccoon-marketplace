@@ -3,11 +3,6 @@ name: dbt
 description: Skills for analytics engineering with dbt - building models, writing tests, querying the semantic layer, troubleshooting jobs, and more. Use when doing any dbt analytics engineering work.
 license: Apache-2.0
 metadata:
-  suggest_for:
-    extension:
-      - "*.sql"
-      - "*.yml"
-      - "*.yaml"
   category: development
   author: dbt-labs
   source:

@@ -6,13 +6,6 @@ description: >-
   feedback on each section. Transforms your writing process from solo effort to
   collaborative partnership.
 metadata:
-  suggest_for:
-    extension:
-      - "*.md"
-      - "*.mdx"
-      - "*.txt"
-      - "*.rst"
-      - "*.adoc"
   category: business
   source:
     repository: 'https://github.com/ComposioHQ/awesome-claude-skills'

@@ -4,7 +4,6 @@ description: Enables database operations with MotherDuck and local DuckDB, provi
   initialization, schema reading, and query execution.
 suggest_for:
   extension:
-    - "*.sql"
     - "*.duckdb"
 author: motherduckdb
 url: https://github.com/motherduckdb/mcp-server-motherduck

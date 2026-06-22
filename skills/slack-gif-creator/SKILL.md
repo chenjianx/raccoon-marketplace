@@ -7,9 +7,6 @@ description: >-
   like "make me a GIF for Slack of X doing Y".
 license: Complete terms in LICENSE.txt
 metadata:
-  suggest_for:
-    extension:
-      - "*.gif"
   category: creative-media
   source:
     repository: 'https://github.com/ComposioHQ/awesome-claude-skills'

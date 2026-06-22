@@ -3,11 +3,6 @@ name: dbt-migration
 description: Skills for migrating dbt projects - moving from dbt Core to the Fusion engine or across data platforms. Use when migrating dbt projects between platforms or to dbt Fusion.
 license: Apache-2.0
 metadata:
-  suggest_for:
-    extension:
-      - "*.sql"
-      - "*.yml"
-      - "*.yaml"
   category: development
   author: dbt-labs
   source:

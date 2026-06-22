@@ -6,10 +6,6 @@ description: >-
   pages, and handling browser-only APIs. Triggers on SSR configuration, fixing
   hydration mismatches, prerendering routes, or making code SSR-compatible.
 metadata:
-  suggest_for:
-    extension:
-      - "*.ts"
-      - "*.html"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

@@ -9,10 +9,6 @@ description: >-
   Angular projects. Don't use for template-driven forms without signals or
   third-party form libraries like Formly or ngx-formly.
 metadata:
-  suggest_for:
-    extension:
-      - "*.ts"
-      - "*.html"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

@@ -7,14 +7,6 @@ description: >-
   generate a new theme on-the-fly.
 license: Complete terms in LICENSE.txt
 metadata:
-  suggest_for:
-    extension:
-      - "*.html"
-      - "*.md"
-      - "*.mdx"
-      - "*.pdf"
-      - "*.pptx"
-      - "*.docx"
   category: creative-media
   source:
     repository: 'https://github.com/ComposioHQ/awesome-claude-skills'

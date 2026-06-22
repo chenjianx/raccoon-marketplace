@@ -11,8 +11,7 @@ description: >-
 metadata:
   suggest_for:
     extension:
-      - "*.ts"
-      - "*.html"
+      - "*.directive.ts"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

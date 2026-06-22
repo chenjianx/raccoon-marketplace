@@ -5,13 +5,6 @@ suggest_for:
   extension:
     - "*.idb"
     - "*.i64"
-    - "*.exe"
-    - "*.dll"
-    - "*.so"
-    - "*.dylib"
-    - "*.elf"
-    - "*.bin"
-    - "*.wasm"
 author: mrexodia
 url: https://github.com/mrexodia/ida-pro-mcp
 tags:

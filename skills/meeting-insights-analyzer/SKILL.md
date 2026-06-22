@@ -7,18 +7,6 @@ description: >-
   listen. Perfect for professionals seeking to improve their communication and
   leadership skills.
 metadata:
-  suggest_for:
-    extension:
-      - "*.txt"
-      - "*.md"
-      - "*.srt"
-      - "*.vtt"
-      - "*.mp3"
-      - "*.wav"
-      - "*.m4a"
-      - "*.mp4"
-      - "*.webm"
-      - "*.docx"
   category: business
   source:
     repository: 'https://github.com/ComposioHQ/awesome-claude-skills'

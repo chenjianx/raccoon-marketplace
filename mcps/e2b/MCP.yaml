@@ -2,13 +2,6 @@ id: e2b
 name: Code Interpreter
 description: Adds secure code execution capabilities to Claude Desktop using E2B Sandbox, supporting both JavaScript and
   Python environments.
-suggest_for:
-  extension:
-    - "*.py"
-    - "*.js"
-    - "*.jsx"
-    - "*.ts"
-    - "*.tsx"
 author: e2b-dev
 url: https://github.com/e2b-dev/mcp-server
 tags:

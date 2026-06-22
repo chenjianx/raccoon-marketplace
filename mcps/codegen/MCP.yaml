@@ -2,28 +2,6 @@ id: codegen
 name: Codegen
 description: Enables parsing codebases and executing codemods through standardized model inference, supporting various
   LLM providers via integration with the Codegen SDK.
-suggest_for:
-  extension:
-    - "*.js"
-    - "*.jsx"
-    - "*.ts"
-    - "*.tsx"
-    - "*.py"
-    - "*.rb"
-    - "*.php"
-    - "*.java"
-    - "*.kt"
-    - "*.kts"
-    - "*.go"
-    - "*.rs"
-    - "*.cs"
-    - "*.cpp"
-    - "*.cc"
-    - "*.c"
-    - "*.h"
-    - "*.hpp"
-    - "*.swift"
-    - "*.dart"
 author: codegen-sh
 url: https://github.com/codegen-sh/codegen-sdk/tree/develop/codegen-examples/examples/codegen-mcp-server
 tags:

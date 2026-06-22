@@ -2,23 +2,6 @@ id: google-maps-platform-code-assist
 name: Google Maps Platform Code Assist
 description: Official Google Maps Platform MCP for AI-powered code assistance. Provides tools to generate client-side
   and server-side code for Maps, Routes, and Places APIs, helping developers build geospatial applications faster.
-suggest_for:
-  extension:
-    - "*.html"
-    - "*.js"
-    - "*.jsx"
-    - "*.ts"
-    - "*.tsx"
-    - "*.java"
-    - "*.kt"
-    - "*.kts"
-    - "*.swift"
-    - "*.dart"
-    - "*.py"
-    - "*.go"
-    - "*.php"
-    - "*.rb"
-    - "*.cs"
 author: googlemaps
 url: https://github.com/googlemaps/platform-ai
 tags:

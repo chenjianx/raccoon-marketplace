@@ -9,9 +9,6 @@ description: >-
   testing with Cypress or Playwright, or for testing non-Angular
   JavaScript/TypeScript code.
 metadata:
-  suggest_for:
-    extension:
-      - "*.ts"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

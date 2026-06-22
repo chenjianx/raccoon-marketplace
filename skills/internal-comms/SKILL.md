@@ -8,15 +8,6 @@ description: >-
   project updates, etc.).
 license: Complete terms in LICENSE.txt
 metadata:
-  suggest_for:
-    extension:
-      - "*.md"
-      - "*.mdx"
-      - "*.txt"
-      - "*.rst"
-      - "*.adoc"
-      - "*.docx"
-      - "*.odt"
   category: business
   source:
     repository: 'https://github.com/ComposioHQ/awesome-claude-skills'

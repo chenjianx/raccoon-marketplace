@@ -6,20 +6,6 @@ description: >-
   making choices that don't read as templated defaults.
 license: Complete terms in LICENSE.txt
 metadata:
-  suggest_for:
-    extension:
-      - "*.html"
-      - "*.css"
-      - "*.scss"
-      - "*.sass"
-      - "*.less"
-      - "*.js"
-      - "*.jsx"
-      - "*.ts"
-      - "*.tsx"
-      - "*.vue"
-      - "*.svelte"
-      - "*.astro"
   category: development
   source:
     repository: 'https://github.com/anthropics/skills'

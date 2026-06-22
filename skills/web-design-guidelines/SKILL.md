@@ -5,18 +5,6 @@ description: >-
   "review my UI", "check accessibility", "audit design", "review UX", or "check
   my site against best practices".
 metadata:
-  suggest_for:
-    extension:
-      - "*.html"
-      - "*.css"
-      - "*.scss"
-      - "*.sass"
-      - "*.less"
-      - "*.jsx"
-      - "*.tsx"
-      - "*.vue"
-      - "*.svelte"
-      - "*.astro"
   author: vercel
   version: 1.0.0
   argument-hint: <file-or-pattern>

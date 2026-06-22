@@ -9,12 +9,8 @@ description: >-
 metadata:
   suggest_for:
     extension:
-      - "*.ts"
-      - "*.html"
-      - "*.css"
-      - "*.scss"
-      - "*.sass"
-      - "*.less"
+      - "*.component.ts"
+      - "*.component.html"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

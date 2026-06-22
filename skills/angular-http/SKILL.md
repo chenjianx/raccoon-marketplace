@@ -7,9 +7,6 @@ description: >-
   loading states, error handling, or converting Observable-based HTTP to
   signal-based patterns.
 metadata:
-  suggest_for:
-    extension:
-      - "*.ts"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

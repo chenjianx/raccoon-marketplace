@@ -7,9 +7,6 @@ description: >-
   configuration, adding authentication guards, implementing lazy loading, or
   reading route parameters with signals.
 metadata:
-  suggest_for:
-    extension:
-      - "*.ts"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

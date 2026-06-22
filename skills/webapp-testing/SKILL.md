@@ -6,13 +6,6 @@ description: >-
   capturing browser screenshots, and viewing browser logs.
 license: Complete terms in LICENSE.txt
 metadata:
-  suggest_for:
-    extension:
-      - "*.html"
-      - "*.js"
-      - "*.jsx"
-      - "*.ts"
-      - "*.tsx"
   category: development
   source:
     repository: 'https://github.com/ComposioHQ/awesome-claude-skills'

@@ -7,9 +7,6 @@ description: >-
   singleton vs scoped services. Triggers on service creation, configuring
   providers, using injection tokens, or understanding DI hierarchy.
 metadata:
-  suggest_for:
-    extension:
-      - "*.ts"
   category: development
   source:
     repository: 'https://github.com/analogjs/angular-skills'

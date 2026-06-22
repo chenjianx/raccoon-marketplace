@@ -128,8 +128,7 @@ metadata:
   author: your-github-username
   suggest_for:
     extension:
-      - "*.ts"
-      - "*.tsx"
+      - "*.component.ts"
   source:
     repository: https://github.com/yourname/your-skill-repo
     path: path/to/skill
@@ -139,7 +138,7 @@ metadata:
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `metadata.suggest_for.extension` | No | Non-empty list of file extension patterns for which Kilo should suggest the skill; each must use the `"*.ext"` form (for example, `"*.rb"`) |
+| `metadata.suggest_for.extension` | No | Non-empty list of patterns that make this skill highly probable from the filename alone; prefer distinctive forms such as `"*.component.ts"` and omit broad patterns such as `"*.ts"` |
 | `metadata.source.repository` | **Yes** (for contributed skills) | URL to the GitHub repository containing your skill |
 | `metadata.source.path` | **Yes** (for contributed skills) | Path within the repository to the skill directory |
 | `metadata.source.license_path` | **Yes** (for contributed skills) | Path to the LICENSE file in the source repo |
@@ -298,8 +297,7 @@ tags:
   - here
 suggest_for:
   extension:
-    - "*.ts"
-    - "*.tsx"
+    - "*.sqlite"
 prerequisites:
   - Required software or accounts
 content:
@@ -330,7 +328,7 @@ parameters:
 | `author` | Yes | Author or organization name |
 | `url` | Yes | Link to the MCP server repository |
 | `tags` | Yes | Array of relevant tags |
-| `suggest_for.extension` | No | Non-empty list of file extension patterns for which Kilo should suggest the MCP server; each must use the `"*.ext"` form (for example, `"*.sql"`) |
+| `suggest_for.extension` | No | Non-empty list of patterns that make this MCP server highly probable from the filename alone; prefer distinctive forms such as `"*.blade.php"` and omit broad patterns such as `"*.php"` |
 | `prerequisites` | No | Required software or accounts |
 | `content` | Yes | Installation configuration(s) |
 | `parameters` | No | User-configurable parameters |
