@@ -4,10 +4,7 @@ description: Up-to-date code documentation for LLMs and AI code editors. Provide
   code examples straight from the source, eliminating outdated or hallucinated API information.
 author: upstash
 url: https://github.com/upstash/context7
-tags:
-  - documentation
-  - development
-  - information-retrieval
+category: search
 content:
   - name: NPX
     content: |

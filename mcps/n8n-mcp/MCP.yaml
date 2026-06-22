@@ -5,10 +5,7 @@ description: A Model Context Protocol (MCP) server that provides AI assistants w
   about n8n's 525+ workflow automation nodes.
 author: czlonkowski
 url: https://github.com/czlonkowski/n8n-mcp
-tags:
-  - automation
-  - workflow
-  - documentation
+category: productivity
 content:
   - name: NPX (Docs only)
     prerequisites:

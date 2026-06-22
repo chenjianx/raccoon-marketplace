@@ -4,10 +4,7 @@ description: Official Microsoft Learn MCP server that provides access to Microso
   documentation, tutorials, and learning paths.
 author: microsoft
 url: https://github.com/microsoftdocs/mcp
-tags:
-  - documentation
-  - development
-  - information-retrieval
+category: search
 content:
   - name: Remote MCP
     content: |

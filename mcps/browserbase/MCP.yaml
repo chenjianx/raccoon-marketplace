@@ -4,10 +4,7 @@ description: Cloud browser automation server enabling LLMs to interact with web 
   and execute JavaScript using Browserbase and Puppeteer.
 author: browserbase
 url: https://github.com/browserbase/mcp-server-browserbase
-tags:
-  - web-automation
-  - data-extraction
-  - automation
+category: web-automation
 content:
   - name: NPX
     prerequisites:

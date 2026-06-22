@@ -3,10 +3,7 @@ name: Nia
 description: Nia is an API and MCP layer that gives agents continuously updated context from libraries, research papers, and docs, so they don't hallucinate and you skip manual ingestion.
 author: Nozomio Labs
 url: https://docs.trynia.ai
-tags:
-  - documentation
-  - knowledge-base
-  - information-retrieval
+category: search
 prerequisites:
   - Nia account (https://app.trynia.ai)
 content:

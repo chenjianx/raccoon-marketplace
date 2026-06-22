@@ -5,10 +5,7 @@ description: The Firebase MCP server allows AI-powered development tools to work
   retrieve schemas, understand security rules, and send messages with Cloud Messaging.
 author: firebase
 url: https://firebase.google.com/docs/cli/mcp-server
-tags:
-  - database-management
-  - api-integration
-  - storage
+category: data
 content:
   - name: NPX
     prerequisites:

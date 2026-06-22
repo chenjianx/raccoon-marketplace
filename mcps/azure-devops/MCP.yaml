@@ -5,10 +5,7 @@ description: Official Microsoft MCP server for Azure DevOps integration, bringin
   across your Azure DevOps organization with 50+ tools for complete DevOps automation.
 author: microsoft
 url: https://github.com/microsoft/azure-devops-mcp
-tags:
-  - automation
-  - project-management
-  - repository-management
+category: development
 prerequisites:
   - Azure DevOps organization
   - Azure CLI authentication

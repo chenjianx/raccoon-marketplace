@@ -4,9 +4,7 @@ description: Integrates Kagi's advanced search API to provide AI assistants with
   accurate information retrieval.
 author: kagisearch
 url: https://github.com/kagisearch/kagimcp
-tags:
-  - web-search
-  - information-retrieval
+category: search
 prerequisites:
   - Kagi account
 content:
