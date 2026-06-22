@@ -415,10 +415,7 @@ name: Service Name
 description: Brief description of what this MCP server provides
 author: author-name
 url: https://github.com/org/repo
-tags:
-  - relevant
-  - tags
-  - here
+category: development
 prerequisites:
   - Required software or accounts
 content:
@@ -448,10 +445,22 @@ parameters:
 | `description` | Yes | Clear description of capabilities |
 | `author` | Yes | Author or organization name |
 | `url` | Yes | Link to the MCP server repository |
-| `tags` | Yes | Array of relevant tags |
+| `category` | Yes | Primary category: `business`, `data`, `development`, `observability`, `productivity`, `search`, or `web-automation` |
 | `prerequisites` | No | Required software or accounts |
 | `content` | Yes | Installation configuration(s) |
 | `parameters` | No | User-configurable parameters |
+
+Choose the single category that best represents how users will discover the MCP. Categories are broad navigation groups, not a list of every capability:
+
+- `business` - Finance, payments, contracts, and other specialized business operations
+- `data` - Databases, storage, data engineering, and persistent knowledge
+- `development` - Code, repositories, developer platforms, and software tooling
+- `observability` - Logs, errors, telemetry, and application or infrastructure monitoring
+- `productivity` - Projects, workflows, collaboration, communication, and office tools
+- `search` - Web, documentation, knowledge, and other information retrieval
+- `web-automation` - Browser control, testing, scraping, and web content extraction
+
+Propose a new category only when several MCPs share a distinct primary purpose that does not fit an existing category.
 
 ### Transport Types
 
@@ -536,10 +545,7 @@ name: Example Service
 description: Enables AI assistants to interact with Example Service API for data retrieval and automation.
 author: example-org
 url: https://github.com/example-org/example-mcp
-tags:
-  - api-integration
-  - automation
-  - data-retrieval
+category: business
 prerequisites:
   - Example Service account
 content:
