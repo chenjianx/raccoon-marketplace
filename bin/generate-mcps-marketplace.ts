@@ -38,8 +38,16 @@ const items = fs
       throw new Error(`${dir.name}/MCP.yaml: use category instead of tags`);
     }
 
+    const marketplaceMcp = {} as typeof mcp;
+    for (const [key, value] of Object.entries(mcp)) {
+      marketplaceMcp[key] = value;
+      if (key === "category") {
+        marketplaceMcp.tags = [value];
+      }
+    }
+
     console.log(`Added: ${mcp.name}`);
-    return mcp;
+    return marketplaceMcp;
   })
   .sort((a, b) => {
     const categoryComparison = a.category.localeCompare(b.category);

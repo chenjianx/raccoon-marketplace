@@ -19,6 +19,8 @@ items:
     author: invest-composer
     url: https://github.com/invest-composer/composer-trade-mcp
     category: business
+    tags:
+      - business
     content: >
       {
         "command": "uvx",
@@ -48,6 +50,8 @@ items:
     author: esignaturescom
     url: https://github.com/esignaturescom/mcp-server-esignatures
     category: business
+    tags:
+      - business
     content:
       - name: UVX
         prerequisites:
@@ -94,6 +98,8 @@ items:
     author: stripe
     url: https://github.com/stripe/agent-toolkit
     category: business
+    tags:
+      - business
     prerequisites:
       - Stripe account
     content:
@@ -128,6 +134,8 @@ items:
     author: dbt-labs
     url: https://github.com/dbt-labs/dbt-mcp
     category: data
+    tags:
+      - data
     prerequisites:
       - Python and uv
     content:
@@ -223,6 +231,8 @@ items:
     author: firebase
     url: https://firebase.google.com/docs/cli/mcp-server
     category: data
+    tags:
+      - data
     content:
       - name: NPX
         prerequisites:
@@ -256,6 +266,8 @@ items:
     author: fireproof-storage
     url: https://github.com/fireproof-storage/mcp-database-server
     category: data
+    tags:
+      - data
     content:
       - name: Node.js
         content: |
@@ -282,6 +294,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/memory
     category: data
+    tags:
+      - data
     content:
       - name: NPX
         prerequisites:
@@ -321,6 +335,8 @@ items:
     author: motherduckdb
     url: https://github.com/motherduckdb/mcp-server-motherduck
     category: data
+    tags:
+      - data
     content:
       - name: UVX
         prerequisites:
@@ -380,6 +396,8 @@ items:
     author: neondatabase
     url: https://github.com/neondatabase/mcp-server-neon
     category: data
+    tags:
+      - data
     content:
       - name: Remote MCP
         prerequisites:
@@ -433,6 +451,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres
     category: data
+    tags:
+      - data
     content:
       - name: NPX
         prerequisites:
@@ -461,6 +481,8 @@ items:
     author: supabase-community
     url: https://github.com/supabase-community/mcp-supabase/tree/HEAD/packages/mcp-server-postgrest
     category: data
+    tags:
+      - data
     content:
       - name: NPX
         prerequisites:
@@ -537,6 +559,8 @@ items:
     author: qdrant
     url: https://github.com/qdrant/mcp-server-qdrant
     category: data
+    tags:
+      - data
     content:
       - name: UVX
         prerequisites:
@@ -631,6 +655,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/redis
     category: data
+    tags:
+      - data
     content:
       - name: UVX
         prerequisites:
@@ -698,6 +724,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite
     category: data
+    tags:
+      - data
     content:
       - name: UVX
         prerequisites:
@@ -726,6 +754,8 @@ items:
     author: supabase
     url: https://supabase.com/docs/guides/mcp
     category: data
+    tags:
+      - data
     prerequisites:
       - Supabase account
     content:
@@ -748,6 +778,8 @@ items:
     author: Verodat
     url: https://github.com/Verodat/verodat-mcp-server
     category: data
+    tags:
+      - data
     content:
       - name: Smithery Installation
         prerequisites:
@@ -806,6 +838,8 @@ items:
     author: microsoft
     url: https://github.com/microsoft/azure-devops-mcp
     category: development
+    tags:
+      - development
     prerequisites:
       - Azure DevOps organization
       - Azure CLI authentication
@@ -830,6 +864,8 @@ items:
     author: cloudflare
     url: https://github.com/cloudflare/mcp-server-cloudflare
     category: development
+    tags:
+      - development
     content:
       - name: Remote MCP - Observability
         prerequisites:
@@ -890,6 +926,8 @@ items:
     author: codegen-sh
     url: https://github.com/codegen-sh/codegen-sdk/tree/develop/codegen-examples/examples/codegen-mcp-server
     category: development
+    tags:
+      - development
     prerequisites:
       - uv
       - Python 3.12+
@@ -926,6 +964,8 @@ items:
     author: e2b-dev
     url: https://github.com/e2b-dev/mcp-server
     category: development
+    tags:
+      - development
     content:
       - name: NPX
         prerequisites:
@@ -972,6 +1012,8 @@ items:
     author: figma
     url: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server
     category: development
+    tags:
+      - development
     content:
       - name: Figma Dev Mode
         content: |
@@ -986,6 +1028,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem
     category: development
+    tags:
+      - development
     content:
       - name: NPX
         prerequisites:
@@ -1014,6 +1058,8 @@ items:
     author: firebase
     url: https://github.com/firebase/genkit/tree/HEAD/js/plugins/mcp
     category: development
+    tags:
+      - development
     prerequisites:
       - Node.js 18+
       - Genkit SDK
@@ -1043,6 +1089,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/git
     category: development
+    tags:
+      - development
     content:
       - name: UVX
         prerequisites:
@@ -1087,6 +1135,8 @@ items:
     author: github
     url: https://github.com/github/github-mcp-server
     category: development
+    tags:
+      - development
     prerequisites:
       - Node.js
       - GitHub account
@@ -1110,6 +1160,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab
     category: development
+    tags:
+      - development
     prerequisites:
       - GitLab account
     content:
@@ -1163,6 +1215,8 @@ items:
     author: googlemaps
     url: https://github.com/googlemaps/platform-ai
     category: development
+    tags:
+      - development
     content:
       - name: NPX
         prerequisites:
@@ -1178,6 +1232,8 @@ items:
     author: mrexodia
     url: https://github.com/mrexodia/ida-pro-mcp
     category: development
+    tags:
+      - development
     content:
       - name: UVX
         prerequisites:
@@ -1196,6 +1252,8 @@ items:
     author: laravel
     url: https://github.com/laravel/boost
     category: development
+    tags:
+      - development
     prerequisites:
       - PHP 8.1 or higher
       - Laravel 10.x, 11.x, or 12.x
@@ -1220,6 +1278,8 @@ items:
     author: riza-io
     url: https://github.com/riza-io/riza-mcp
     category: development
+    tags:
+      - development
     content:
       - name: NPX
         prerequisites:
@@ -1243,6 +1303,8 @@ items:
     author: axiomhq
     url: https://github.com/axiomhq/mcp-server-axiom
     category: observability
+    tags:
+      - observability
     content:
       - name: Go Binary
         content: |
@@ -1298,6 +1360,8 @@ items:
     author: metoro-io
     url: https://github.com/metoro-io/metoro-mcp-server
     category: observability
+    tags:
+      - observability
     content:
       - name: Go Binary
         content: |
@@ -1337,6 +1401,8 @@ items:
     author: MindscapeHQ
     url: https://github.com/MindscapeHQ/mcp-server-raygun
     category: observability
+    tags:
+      - observability
     content:
       - name: NPX
         prerequisites:
@@ -1377,6 +1443,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry
     category: observability
+    tags:
+      - observability
     content:
       - name: UVX
         prerequisites:
@@ -1414,6 +1482,8 @@ items:
     author: sooperset
     url: https://github.com/sooperset/mcp-atlassian
     category: productivity
+    tags:
+      - productivity
     prerequisites:
       - Docker
       - Atlassian account (Cloud or Server/Data Center)
@@ -1497,6 +1567,8 @@ items:
     author: taazkareem
     url: https://github.com/TaazKareem/clickup-mcp-server
     category: productivity
+    tags:
+      - productivity
     prerequisites:
       - ClickUp account
       - ClickUp API key
@@ -1532,6 +1604,8 @@ items:
     author: taylorwilsdon
     url: https://github.com/taylorwilsdon/google_workspace_mcp
     category: productivity
+    tags:
+      - productivity
     prerequisites:
       - Google Cloud Project with OAuth 2.0 credentials
     content:
@@ -1562,6 +1636,8 @@ items:
     author: cline
     url: https://github.com/cline/linear-mcp
     category: productivity
+    tags:
+      - productivity
     content:
       - name: Node.js
         prerequisites:
@@ -1602,6 +1678,8 @@ items:
     author: czlonkowski
     url: https://github.com/czlonkowski/n8n-mcp
     category: productivity
+    tags:
+      - productivity
     content:
       - name: NPX (Docs only)
         prerequisites:
@@ -1689,6 +1767,8 @@ items:
     author: makenotion
     url: https://github.com/makenotion/notion-mcp-server
     category: productivity
+    tags:
+      - productivity
     prerequisites:
       - Notion account with integration access
     content:
@@ -1754,6 +1834,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
     category: productivity
+    tags:
+      - productivity
     content:
       - name: NPX
         prerequisites:
@@ -1778,6 +1860,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack
     category: productivity
+    tags:
+      - productivity
     prerequisites:
       - Slack workspace with bot permissions
     content:
@@ -1826,6 +1910,8 @@ items:
     author: smartsheet-platform
     url: https://github.com/smartsheet-platform/smar-mcp
     category: productivity
+    tags:
+      - productivity
     content:
       - name: Local Development
         prerequisites:
@@ -1856,6 +1942,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/time
     category: productivity
+    tags:
+      - productivity
     content:
       - name: UVX
         prerequisites:
@@ -1912,6 +2000,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server
     category: search
+    tags:
+      - search
     content:
       - name: NPX
         prerequisites:
@@ -1956,6 +2046,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search
     category: search
+    tags:
+      - search
     prerequisites:
       - Brave Search account
     content:
@@ -1992,6 +2084,8 @@ items:
     author: upstash
     url: https://github.com/upstash/context7
     category: search
+    tags:
+      - search
     content:
       - name: NPX
         content: |
@@ -2022,6 +2116,8 @@ items:
     author: exa-labs
     url: https://github.com/exa-labs/exa-mcp-server
     category: search
+    tags:
+      - search
     prerequisites:
       - Exa account
     content:
@@ -2074,6 +2170,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive
     category: search
+    tags:
+      - search
     prerequisites:
       - Google account with Drive API access
     content:
@@ -2108,6 +2206,8 @@ items:
     author: idosal
     url: https://github.com/idosal/git-mcp
     category: search
+    tags:
+      - search
     content:
       - name: SSE
         content: |
@@ -2144,6 +2244,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps
     category: search
+    tags:
+      - search
     prerequisites:
       - Google Cloud account with Maps API enabled
     content:
@@ -2191,6 +2293,8 @@ items:
     author: kagisearch
     url: https://github.com/kagisearch/kagimcp
     category: search
+    tags:
+      - search
     prerequisites:
       - Kagi account
     content:
@@ -2245,6 +2349,8 @@ items:
     author: microsoft
     url: https://github.com/microsoftdocs/mcp
     category: search
+    tags:
+      - search
     content:
       - name: Remote MCP
         content: |
@@ -2259,6 +2365,8 @@ items:
     author: needle-ai
     url: https://github.com/needle-ai/needle-mcp
     category: search
+    tags:
+      - search
     content:
       - name: Smithery Installation
         prerequisites:
@@ -2293,6 +2401,8 @@ items:
     author: Nozomio Labs
     url: https://docs.trynia.ai
     category: search
+    tags:
+      - search
     prerequisites:
       - Nia account (https://app.trynia.ai)
     content:
@@ -2316,6 +2426,8 @@ items:
     author: tavily-ai
     url: https://github.com/tavily-ai/tavily-mcp
     category: search
+    tags:
+      - search
     prerequisites:
       - Tavily account
     content:
@@ -2359,6 +2471,8 @@ items:
     author: IBM
     url: https://github.com/IBM/wxflows/tree/main/examples/mcp/javascript
     category: search
+    tags:
+      - search
     content:
       - name: Node.js
         content: |
@@ -2399,6 +2513,8 @@ items:
     author: apify
     url: https://github.com/apify/actors-mcp-server
     category: web-automation
+    tags:
+      - web-automation
     content:
       - name: NPX
         prerequisites:
@@ -2446,6 +2562,8 @@ items:
     author: browserbase
     url: https://github.com/browserbase/mcp-server-browserbase
     category: web-automation
+    tags:
+      - web-automation
     content:
       - name: NPX
         prerequisites:
@@ -2513,6 +2631,8 @@ items:
     author: oxylabs
     url: https://github.com/oxylabs/oxylabs-mcp
     category: web-automation
+    tags:
+      - web-automation
     content:
       - name: UVX
         prerequisites:
@@ -2565,6 +2685,8 @@ items:
     author: microsoft
     url: https://github.com/microsoft/playwright-mcp
     category: web-automation
+    tags:
+      - web-automation
     content:
       - name: NPX
         prerequisites:
@@ -2615,6 +2737,8 @@ items:
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer
     category: web-automation
+    tags:
+      - web-automation
     content:
       - name: NPX
         prerequisites:
@@ -2639,6 +2763,8 @@ items:
     author: anaisbetts
     url: https://github.com/anaisbetts/mcp-youtube
     category: web-automation
+    tags:
+      - web-automation
     prerequisites:
       - yt-dlp (install via Homebrew or WinGet)
     content:
