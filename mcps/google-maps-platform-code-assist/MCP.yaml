@@ -6,7 +6,6 @@ author: googlemaps
 url: https://github.com/googlemaps/platform-ai
 tags:
   - maps
-  - routes
   - code-generation
 content:
   - name: NPX

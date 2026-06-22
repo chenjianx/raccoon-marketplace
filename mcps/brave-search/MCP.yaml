@@ -6,7 +6,6 @@ author: modelcontextprotocol
 url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search
 tags:
   - web-search
-  - search-engine
   - content-discovery
 prerequisites:
   - Brave Search account

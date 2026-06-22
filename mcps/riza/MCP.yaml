@@ -6,7 +6,6 @@ author: riza-io
 url: https://github.com/riza-io/riza-mcp
 tags:
   - code-execution
-  - sandbox
   - security
 content:
   - name: NPX

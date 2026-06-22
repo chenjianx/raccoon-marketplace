@@ -6,7 +6,6 @@ author: modelcontextprotocol
 url: https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps
 tags:
   - maps
-  - routes
   - api-integration
 prerequisites:
   - Google Cloud account with Maps API enabled
