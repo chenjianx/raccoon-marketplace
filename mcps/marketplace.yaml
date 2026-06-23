@@ -1597,6 +1597,10 @@ items:
             "command": "uvx",
             "args": ["mcp-server-motherduck", "--db-path", "{{DB_PATH}}", "--read-only"]
           }
+        parameters:
+          - name: Database Path
+            key: DB_PATH
+            placeholder: /path/to/your/local.db
       - name: UVX with SaaS Mode
         prerequisites:
           - Python
