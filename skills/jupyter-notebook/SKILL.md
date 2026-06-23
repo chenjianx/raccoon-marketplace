@@ -1,11 +1,17 @@
 ---
 name: jupyter-notebook
 description: Use whenever the user works with Jupyter notebooks (`.ipynb`), including creating, inspecting, editing, executing, or visualizing notebook content for experiments, explorations, or tutorials.
+license: Apache-2.0
 metadata:
   category: development
+  author: Kilo
   suggest_for:
     filename:
       - "*.ipynb"
+  source:
+    repository: https://github.com/Kilo-Org/skills
+    path: skills/jupyter-notebook
+    license_path: LICENSE
 ---
 
 
