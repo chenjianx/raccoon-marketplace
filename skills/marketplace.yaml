@@ -293,6 +293,11 @@ items:
       Use whenever the user works with Jupyter notebooks (`.ipynb`), including creating, inspecting, editing, executing,
       or visualizing notebook content for experiments, explorations, or tutorials.
     category: development
+    suggest_for:
+      filename:
+        - "*.ipynb"
+      vscode_extension:
+        - ms-toolsai.jupyter
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/jupyter-notebook
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/jupyter-notebook/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/jupyter-notebook.tar.gz

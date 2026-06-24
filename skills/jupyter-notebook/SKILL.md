@@ -11,6 +11,8 @@ metadata:
   suggest_for:
     filename:
       - '*.ipynb'
+    vscode_extension:
+      - ms-toolsai.jupyter
   source:
     repository: 'https://github.com/Kilo-Org/skills'
     path: skills/jupyter-notebook
