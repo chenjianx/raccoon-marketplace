@@ -24,12 +24,22 @@ const RAW_BASE_URL =
 const CONTENT_BASE_URL =
   "https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest";
 
+const declaredNames = new Set<string>();
 generateMarketplace({
   rootDir: skillsDir,
   parseItem: (dirName) => {
     const { data } = matter(
       fs.readFileSync(path.join(skillsDir, dirName, "SKILL.md"), "utf-8"),
     );
+    if (data.name !== dirName) {
+      throw new Error(
+        `${dirName}/SKILL.md: name must match directory (found "${data.name ?? "missing"}")`,
+      );
+    }
+    if (declaredNames.has(data.name)) {
+      throw new Error(`Duplicate skill name: ${data.name}`);
+    }
+    declaredNames.add(data.name);
     console.log(`Added: ${data.name}`);
     return {
       id: dirName,

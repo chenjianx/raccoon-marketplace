@@ -133,6 +133,7 @@ metadata:
     repository: https://github.com/yourname/your-skill-repo
     path: path/to/skill
     license_path: LICENSE
+    commit: 0123456789abcdef0123456789abcdef01234567
 ---
 ```
 
@@ -143,6 +144,7 @@ metadata:
 | `metadata.source.repository` | **Yes** (for contributed skills) | URL to the GitHub repository containing your skill |
 | `metadata.source.path` | **Yes** (for contributed skills) | Path within the repository to the skill directory |
 | `metadata.source.license_path` | **Yes** (for contributed skills) | Path to the LICENSE file in the source repo |
+| `metadata.source.commit` | **Yes** (for new imports and updates) | Full 40-character Git SHA of the imported upstream revision; managed by marketplace tooling |
 
 Suggestion patterns are intentionally not exhaustive. A format being supported as input or output is not enough to add it: for example, a generic Markdown or audio file does not imply a writing or meeting-analysis task. Likewise, only list a VS Code extension when its installation strongly indicates the exact skill is relevant. A `suggest_for` object must contain at least one of `filename` or `vscode_extension`.
 
