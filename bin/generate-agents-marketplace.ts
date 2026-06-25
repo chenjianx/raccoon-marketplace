@@ -8,16 +8,22 @@
 import * as fs from "fs";
 import * as path from "path";
 import matter from "gray-matter";
+import * as yaml from "yaml";
 import {
   AGENT_CATEGORIES,
   buildCategorySummary,
   generateMarketplace,
+  listVisibleDirectories,
   repoPathFromBin,
   requireString,
+  type AgentRequirements,
+  validateAgentRequirements,
   validateSuggestFor,
 } from "./marketplace-generator-utils.ts";
 
 const agentsDir = repoPathFromBin("agents");
+const skillsDir = repoPathFromBin("skills");
+const mcpsDir = repoPathFromBin("mcps");
 
 const AGENT_MODES = new Set(["primary", "subagent", "all"]);
 const AGENT_CONFIG_KEYS = ["model", "variant", "temperature", "top_p", "permission", "color", "steps", "hidden"];
@@ -28,6 +34,7 @@ type AgentContent = {
   description: string;
   prompt: string;
   options: Record<string, unknown>;
+  requirements?: AgentRequirements;
   model?: string;
   variant?: string;
   temperature?: number;
@@ -50,6 +57,32 @@ type MarketplaceAgent = {
   prerequisites?: string[];
   content: AgentContent;
 };
+
+function loadMcpIds(): Set<string> {
+  const sourceById = new Map<string, string>();
+
+  for (const dirName of listVisibleDirectories(mcpsDir)) {
+    const file = path.join(mcpsDir, dirName, "MCP.yaml");
+    const parsed = yaml.parse(fs.readFileSync(file, "utf-8")) as unknown;
+    const id = requireString(
+      parsed && typeof parsed === "object" && !Array.isArray(parsed)
+        ? (parsed as Record<string, unknown>).id
+        : undefined,
+      "id",
+      file,
+    );
+    const existingFile = sourceById.get(id);
+    if (existingFile) {
+      throw new Error(`${file}: duplicate MCP id "${id}" also declared in ${existingFile}`);
+    }
+    sourceById.set(id, file);
+  }
+
+  return new Set(sourceById.keys());
+}
+
+const skillIds = new Set(listVisibleDirectories(skillsDir));
+const mcpIds = loadMcpIds();
 
 function agentFromMarkdown(dirName: string): MarketplaceAgent {
   const file = path.join(agentsDir, dirName, "AGENT_DEFINITION.md");
@@ -84,6 +117,12 @@ function agentFromMarkdown(dirName: string): MarketplaceAgent {
   if (!options || typeof options !== "object" || Array.isArray(options)) {
     throw new Error(`${file}: options must be an object`);
   }
+  const requirements = validateAgentRequirements(
+    frontmatter.requirements,
+    id,
+    skillIds,
+    mcpIds,
+  );
 
   const agentContent: Record<string, unknown> = {
     mode,
@@ -95,6 +134,7 @@ function agentFromMarkdown(dirName: string): MarketplaceAgent {
       id,
     },
   };
+  if (requirements !== undefined) agentContent.requirements = requirements;
 
   for (const key of AGENT_CONFIG_KEYS) {
     if (frontmatter[key] !== undefined) agentContent[key] = frontmatter[key];

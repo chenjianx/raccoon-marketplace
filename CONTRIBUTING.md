@@ -266,6 +266,28 @@ Examples:
 
 ---
 
+## Contributing Agents
+
+Agent definitions may declare machine-readable dependencies with an optional top-level `requirements` field in `agents/<id>/AGENT_DEFINITION.md`:
+
+```yaml
+requirements:
+  skills:
+    - jupyter-notebook
+  vscode_extensions:
+    - ms-toolsai.jupyter
+  mcps:
+    - jupyter
+```
+
+The supported subgroups are exactly `skills`, `vscode_extensions`, and `mcps`. Each subgroup that is present must be a non-empty list of non-empty strings, and every listed item is a required dependency; alternative or OR groups are not supported. Omit `requirements` entirely when the agent has no machine-readable dependencies.
+
+Skill values must be exact marketplace skill IDs, and MCP values must match the `id` in the resource's `MCP.yaml`. Both are checked during marketplace generation. VS Code extension values may be any non-empty strings. Authored values and list ordering are preserved without normalization, sorting, or deduplication.
+
+Keep setup instructions that cannot be resolved to marketplace skills, MCPs, or VS Code extensions in `prerequisites`. During generation, source `requirements` is emitted as `items[].content.requirements` so the metadata is retained in the installed agent definition.
+
+---
+
 ## Contributing MCP Servers
 
 MCP (Model Context Protocol) servers extend Kilo Code's capabilities by connecting to external tools and services.

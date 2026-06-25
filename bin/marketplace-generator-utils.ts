@@ -14,6 +14,12 @@ type SuggestForOptions = {
   filenameExample: string;
 };
 
+export type AgentRequirements = {
+  skills?: string[];
+  vscode_extensions?: string[];
+  mcps?: string[];
+};
+
 type GenerateMarketplaceOptions<T> = {
   rootDir: string;
   outputFile?: string;
@@ -118,6 +124,57 @@ export function foldedScalar(value: string): Scalar {
   scalar.type = Scalar.BLOCK_FOLDED;
   scalar.blockChomping = "strip";
   return scalar;
+}
+
+export function validateAgentRequirements(
+  value: unknown,
+  agentId: string,
+  skillIds: ReadonlySet<string>,
+  mcpIds: ReadonlySet<string>,
+): AgentRequirements | undefined {
+  if (value === undefined) return undefined;
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    throw new Error(`${agentId}: requirements must be an object`);
+  }
+
+  const requirements = value as Record<string, unknown>;
+  const supportedSubgroups = ["skills", "vscode_extensions", "mcps"] as const;
+  const unknownKey = Object.keys(requirements).find(
+    (key) => !supportedSubgroups.includes(key as (typeof supportedSubgroups)[number]),
+  );
+  if (unknownKey) {
+    throw new Error(`${agentId}: requirements has unknown property "${unknownKey}"`);
+  }
+  if (Object.keys(requirements).length === 0) {
+    throw new Error(`${agentId}: requirements must contain at least one supported subgroup`);
+  }
+
+  for (const subgroup of supportedSubgroups) {
+    if (!Object.prototype.hasOwnProperty.call(requirements, subgroup)) continue;
+    const entries = requirements[subgroup];
+    if (
+      !Array.isArray(entries) ||
+      entries.length === 0 ||
+      !entries.every((entry) => typeof entry === "string" && entry.trim().length > 0)
+    ) {
+      throw new Error(
+        `${agentId}: requirements.${subgroup} must be a non-empty list of non-empty strings`,
+      );
+    }
+
+    const availableIds = subgroup === "skills" ? skillIds : subgroup === "mcps" ? mcpIds : undefined;
+    if (availableIds) {
+      const unknownId = entries.find((entry) => !availableIds.has(entry));
+      if (unknownId) {
+        const resource = subgroup === "skills" ? "skill" : "MCP";
+        throw new Error(
+          `${agentId}: requirements.${subgroup} references unknown ${resource} ID "${unknownId}"`,
+        );
+      }
+    }
+  }
+
+  return value as AgentRequirements;
 }
 
 export function validateSuggestFor(
