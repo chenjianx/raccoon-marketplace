@@ -147,6 +147,21 @@ export function requireString(value: unknown, field: string, file: string): stri
   return value;
 }
 
+const VSCODE_EXTENSION_ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9-]*\.[A-Za-z0-9][A-Za-z0-9-]*$/;
+
+/** Returns true if `entry` is a valid `{ name, id }` VS Code extension object. */
+export function isValidVscodeExtension(entry: unknown): boolean {
+  if (!entry || typeof entry !== "object" || Array.isArray(entry)) return false;
+  const extension = entry as Record<string, unknown>;
+  return (
+    Object.keys(extension).every((key) => key === "name" || key === "id") &&
+    typeof extension.name === "string" &&
+    extension.name.trim().length > 0 &&
+    typeof extension.id === "string" &&
+    VSCODE_EXTENSION_ID_PATTERN.test(extension.id)
+  );
+}
+
 export function foldedScalar(value: string): Scalar {
   const scalar = new Scalar(value);
   scalar.type = Scalar.BLOCK_FOLDED;
@@ -186,20 +201,9 @@ export function validateRequirements(
     }
 
     if (subgroup === "vscode_extensions") {
-      const valid = entries.every((entry) => {
-        if (!entry || typeof entry !== "object" || Array.isArray(entry)) return false;
-        const extension = entry as Record<string, unknown>;
-        return (
-          Object.keys(extension).every((key) => key === "name" || key === "id") &&
-          typeof extension.name === "string" &&
-          extension.name.trim().length > 0 &&
-          typeof extension.id === "string" &&
-          extension.id.trim().length > 0
-        );
-      });
-      if (!valid) {
+      if (!entries.every(isValidVscodeExtension)) {
         throw new Error(
-          `${itemId}: requirements.vscode_extensions entries must contain a non-empty name and ID`,
+          `${itemId}: requirements.vscode_extensions entries must contain a non-empty name and a valid extension ID like "ms-toolsai.jupyter"`,
         );
       }
       continue;
@@ -270,19 +274,17 @@ export function validateSuggestFor(
     );
   }
 
-  if (
-    vscodeExtensions !== undefined &&
-    (!Array.isArray(vscodeExtensions) ||
-      vscodeExtensions.length === 0 ||
-      !vscodeExtensions.every(
-        (extensionId) =>
-          typeof extensionId === "string" &&
-          /^[A-Za-z0-9][A-Za-z0-9-]*\.[A-Za-z0-9][A-Za-z0-9-]*$/.test(extensionId),
-      ))
-  ) {
-    throw new Error(
-      `${itemId}: ${options.fieldName}.vscode_extension must be a non-empty list of extension IDs like "ms-toolsai.jupyter"`,
-    );
+  if (vscodeExtensions !== undefined) {
+    if (!Array.isArray(vscodeExtensions) || vscodeExtensions.length === 0) {
+      throw new Error(
+        `${itemId}: ${options.fieldName}.vscode_extension must be a non-empty list`,
+      );
+    }
+    if (!vscodeExtensions.every(isValidVscodeExtension)) {
+      throw new Error(
+        `${itemId}: ${options.fieldName}.vscode_extension entries must contain a non-empty name and a valid extension ID like "ms-toolsai.jupyter"`,
+      );
+    }
   }
 
   return value;
