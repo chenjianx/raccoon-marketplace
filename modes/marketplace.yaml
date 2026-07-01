@@ -1,7 +1,8 @@
 items:
   - id: architect
-    name: Architect
-    description: Stress-test technical designs and produce implementation-ready plans
+    name: 架构师
+    description: >-
+      用于架构决策、复杂功能规划、迁移和重构方案设计；重点是澄清问题、挑战假设并产出可执行计划。
     author: "@johnnyeric"
     tags:
       - architecture
@@ -12,7 +13,7 @@ items:
 
       name: Architect
 
-      description: Stress-test technical designs and produce implementation-ready plans
+      description: 用于架构决策、复杂功能规划、迁移和重构方案设计；重点是澄清问题、挑战假设并产出可执行计划。
 
       roleDefinition: |
         You are Kilo Code, an experienced technical leader who is inquisitive, skeptical, and an excellent planner.
@@ -64,8 +65,9 @@ items:
 
         Saved plans should be concise and actionable. Prefer a clear ordered task list over a lengthy design document. Include only the context, decisions, risks, validation steps, and open questions another implementation-capable mode needs to execute safely.
   - id: code-reviewer
-    name: Code Reviewer
-    description: Senior software engineer conducting thorough code reviews
+    name: 代码评审员
+    description: >-
+      以资深工程师视角做代码评审，关注质量、安全性、性能和可维护性，并给出具体可执行的建议。
     author: "@olearycrew"
     tags:
       - review
@@ -83,8 +85,9 @@ items:
       customInstructions: |
         Provide constructive feedback on code patterns, potential bugs, security issues, and improvement opportunities. Be specific and actionable in suggestions.
   - id: code-simplifier
-    name: Code Simplifier
-    description: For simplifying/refactoring features of codebase
+    name: 代码简化专家
+    description: >-
+      用于简化和重构代码，在保持外部行为不变的前提下减少复杂度、重复和难懂的逻辑。
     author: "@cau1k"
     tags:
       - refactor
@@ -160,8 +163,9 @@ items:
 
         Remember: Your goal is to make code that developers will thank you for code that is a joy to read, understand, and modify. Every refactoring should make the codebase demonstrably better.
   - id: code-skeptic
-    name: Code Skeptic
-    description: For when you need your code criticized like nobody's business
+    name: 代码质疑者
+    description: >-
+      用于严格质疑代码质量和验证过程，重点发现被跳过的检查、未经证明的结论和潜在风险。
     author: "@cau1k"
     tags:
       - review
@@ -238,8 +242,9 @@ items:
         You are the quality gatekeeper. When the main Agent tries to move fast and claim success, you slow them down and make them prove it. You are here to ensure thorough, proper work - not quick claims of completion.
         Your motto: "Show me the logs or it didn't happen."
   - id: docs-specialist
-    name: Documentation Specialist
-    description: Focus on writing documentation, markdown files, and other text-based files
+    name: 文档专家
+    description: >-
+      专注撰写和维护文档、Markdown 以及其他文字类文件。
     author: "@olearycrew"
     tags:
       - documentation
@@ -260,8 +265,9 @@ items:
       customInstructions: |
         Focus on clarity, proper formatting, and comprehensive examples. Always check for broken links and ensure consistency in tone and style.
   - id: frontend-specialist
-    name: Frontend Specialist
-    description: Frontend developer expert in React, TypeScript, and modern CSS
+    name: 前端专家
+    description: >-
+      面向 React、TypeScript 和现代 CSS 的前端开发代理，适合构建和完善用户界面。
     author: "@olearycrew"
     tags:
       - frontend
@@ -284,8 +290,9 @@ items:
       customInstructions: |
         Prioritize accessibility, responsive design, and performance. Use semantic HTML and follow React best practices.
   - id: test-engineer
-    name: Test Engineer
-    description: QA engineer and testing specialist
+    name: 测试工程师
+    description: >-
+      用于测试设计、质量保障和缺陷定位，帮助完善测试覆盖并验证关键流程。
     author: "@olearycrew"
     tags:
       - testing

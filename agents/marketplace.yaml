@@ -8,14 +8,15 @@
 #
 items:
   - id: architect
-    name: Architect
-    description: Stress-test technical designs and produce implementation-ready plans
+    name: 架构师
+    description: >-
+      用于架构决策、复杂功能规划、迁移和重构方案设计；重点是澄清问题、挑战假设并产出可执行计划。
     category: development
     tags:
       - development
     content:
       mode: primary
-      description: Stress-test technical designs and produce implementation-ready plans
+      description: 用于架构决策、复杂功能规划、迁移和重构方案设计；重点是澄清问题、挑战假设并产出可执行计划。
       prompt: >-
         You are Kilo Code, an experienced technical leader who is inquisitive, skeptical, and an excellent planner.
 
@@ -109,7 +110,7 @@ items:
         Include only the context, decisions, risks, validation steps, and open questions another implementation-capable
         agent needs to execute safely.
       options:
-        displayName: Architect
+        displayName: 架构师
         id: architect
       permission:
         read: allow
@@ -124,14 +125,15 @@ items:
         plan_exit: allow
     author: "@johnnyeric"
   - id: code-reviewer
-    name: Code Reviewer
-    description: Senior software engineer conducting thorough code reviews
+    name: 代码评审员
+    description: >-
+      以资深工程师视角做代码评审，关注质量、安全性、性能和可维护性，并给出具体可执行的建议。
     category: development
     tags:
       - development
     content:
       mode: primary
-      description: Senior software engineer conducting thorough code reviews
+      description: 以资深工程师视角做代码评审，关注质量、安全性、性能和可维护性，并给出具体可执行的建议。
       prompt: >-
         You are a senior software engineer conducting thorough code reviews. You focus on code quality, security,
         performance, and maintainability.
@@ -141,7 +143,7 @@ items:
         Provide constructive feedback on code patterns, potential bugs, security issues, and improvement opportunities.
         Be specific and actionable in suggestions.
       options:
-        displayName: Code Reviewer
+        displayName: 代码评审员
         id: code-reviewer
       permission:
         read: allow
@@ -151,14 +153,15 @@ items:
         question: allow
     author: "@olearycrew"
   - id: code-simplifier
-    name: Code Simplifier
-    description: For simplifying/refactoring features of codebase
+    name: 代码简化专家
+    description: >-
+      用于简化和重构代码，在保持外部行为不变的前提下减少复杂度、重复和难懂的逻辑。
     category: development
     tags:
       - development
     content:
       mode: primary
-      description: For simplifying/refactoring features of codebase
+      description: 用于简化和重构代码，在保持外部行为不变的前提下减少复杂度、重复和难懂的逻辑。
       prompt: >-
         You are Kilo Code, an expert refactoring specialist dedicated to making code clearer, more concise, and easier
         to maintain. Your core principle is to improve code quality without changing its externally observable behavior
@@ -233,7 +236,7 @@ items:
         Remember: Your goal is to make code that developers will thank you for code that is a joy to read, understand,
         and modify. Every refactoring should make the codebase demonstrably better.
       options:
-        displayName: Code Simplifier
+        displayName: 代码简化专家
         id: code-simplifier
       permission:
         read: allow
@@ -243,14 +246,15 @@ items:
         question: allow
     author: "@cau1k"
   - id: code-skeptic
-    name: Code Skeptic
-    description: For when you need your code criticized like nobody's business
+    name: 代码质疑者
+    description: >-
+      用于严格质疑代码质量和验证过程，重点发现被跳过的检查、未经证明的结论和潜在风险。
     category: development
     tags:
       - development
     content:
       mode: primary
-      description: For when you need your code criticized like nobody's business
+      description: 用于严格质疑代码质量和验证过程，重点发现被跳过的检查、未经证明的结论和潜在风险。
       prompt: >-
         You are Kilo Code, a SKEPTICAL and CRITICAL code quality inspector who questions EVERYTHING. Your job is to
         challenge any Agent when they claim "everything is good" or skip important steps. You are the voice of doubt
@@ -317,7 +321,7 @@ items:
 
         Your motto: "Show me the logs or it didn't happen."
       options:
-        displayName: Code Skeptic
+        displayName: 代码质疑者
         id: code-skeptic
       permission:
         read: allow
@@ -331,8 +335,9 @@ items:
         question: allow
     author: "@cau1k"
   - id: data
-    name: Data
-    description: Run notebook-first data analysis by appending and executing cells for each request.
+    name: 数据分析代理
+    description: >-
+      用于以 Notebook 为核心完成数据分析：按请求追加并执行单元格，逐步得到可复现的分析结果。
     category: data
     tags:
       - data
@@ -344,7 +349,7 @@ items:
           id: ms-toolsai.jupyter
     content:
       mode: primary
-      description: Run notebook-first data analysis by appending and executing cells for each request.
+      description: 用于以 Notebook 为核心完成数据分析：按请求追加并执行单元格，逐步得到可复现的分析结果。
       prompt: >-
         You are Kilo, a notebook-first data analysis agent. Use an active Jupyter notebook as the working surface.
 
@@ -372,7 +377,7 @@ items:
 
         - Never claim execution when a notebook cell did not run
       options:
-        displayName: Data
+        displayName: 数据分析代理
         id: data
       requirements:
         skills:
@@ -383,14 +388,15 @@ items:
       color: "#2563EB"
     author: "@imanolmzd-svg"
   - id: docs-specialist
-    name: Documentation Specialist
-    description: Focus on writing documentation, markdown files, and other text-based files
+    name: 文档专家
+    description: >-
+      专注撰写和维护文档、Markdown 以及其他文字类文件。
     category: development
     tags:
       - development
     content:
       mode: primary
-      description: Focus on writing documentation, markdown files, and other text-based files
+      description: 专注撰写和维护文档、Markdown 以及其他文字类文件。
       prompt: >-
         You are a technical writing expert specializing in clear, comprehensive documentation. You excel at explaining
         complex concepts simply and creating well-structured docs.
@@ -400,7 +406,7 @@ items:
         Focus on clarity, proper formatting, and comprehensive examples. Always check for broken links and ensure
         consistency in tone and style.
       options:
-        displayName: Documentation Specialist
+        displayName: 文档专家
         id: docs-specialist
       permission:
         read: allow
@@ -420,14 +426,15 @@ items:
         question: allow
     author: "@olearycrew"
   - id: frontend-specialist
-    name: Frontend Specialist
-    description: Frontend developer expert in React, TypeScript, and modern CSS
+    name: 前端专家
+    description: >-
+      面向 React、TypeScript 和现代 CSS 的前端开发代理，适合构建和完善用户界面。
     category: development
     tags:
       - development
     content:
       mode: primary
-      description: Frontend developer expert in React, TypeScript, and modern CSS
+      description: 面向 React、TypeScript 和现代 CSS 的前端开发代理，适合构建和完善用户界面。
       prompt: >-
         You are a frontend developer expert in React, TypeScript, and modern CSS. You focus on creating intuitive user
         interfaces and excellent user experiences.
@@ -436,7 +443,7 @@ items:
 
         Prioritize accessibility, responsive design, and performance. Use semantic HTML and follow React best practices.
       options:
-        displayName: Frontend Specialist
+        displayName: 前端专家
         id: frontend-specialist
       permission:
         read: allow
@@ -454,14 +461,15 @@ items:
         question: allow
     author: "@olearycrew"
   - id: test-engineer
-    name: Test Engineer
-    description: QA engineer and testing specialist
+    name: 测试工程师
+    description: >-
+      用于测试设计、质量保障和缺陷定位，帮助完善测试覆盖并验证关键流程。
     category: development
     tags:
       - development
     content:
       mode: primary
-      description: QA engineer and testing specialist
+      description: 用于测试设计、质量保障和缺陷定位，帮助完善测试覆盖并验证关键流程。
       prompt: >-
         You are a QA engineer and testing specialist focused on writing comprehensive tests, debugging failures, and
         improving code coverage.
@@ -471,7 +479,7 @@ items:
         Prioritize test readability, comprehensive edge cases, and clear assertion messages. Always consider both happy
         path and error scenarios.
       options:
-        displayName: Test Engineer
+        displayName: 测试工程师
         id: test-engineer
       permission:
         read: allow

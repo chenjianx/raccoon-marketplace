@@ -13,9 +13,10 @@
 #
 items:
   - id: agent-platform-mcp
-    name: Gemini Enterprise Agent Platform MCP
-    description: Provides selectable hosted MCP toolsets for Gemini Enterprise Agent Platform generation, prediction,
-      notebooks, endpoints, models, tuning, evaluation, and prompts using Google OAuth and IAM.
+    name: Gemini Enterprise 代理平台 MCP
+    description: >-
+      提供 Gemini Enterprise Agent Platform 的托管 MCP 工具集，覆盖生成、预测、Notebook、端点、模型、调优、评估和 Prompt 等能力，并使用
+      Google OAuth 与 IAM 认证。
     author: Google Cloud
     url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/reference/use-agent-platform-mcp
     category: development
@@ -74,9 +75,9 @@ items:
             "url": "https://aiplatform.googleapis.com/mcp/prompts"
           }
   - id: airbyte-agent-mcp
-    name: Airbyte Agent MCP
-    description: Connects agents to Airbyte's hosted MCP service for inspecting data connections and operating sync
-      workflows with account-scoped authentication.
+    name: Airbyte Agent MCP 集成
+    description: >-
+      连接 Airbyte 托管 MCP 服务，用于检查数据连接并操作同步工作流，认证范围按账号控制。
     author: Airbyte
     url: https://mcp.airbyte.ai/mcp
     category: data
@@ -92,9 +93,9 @@ items:
             "url": "https://mcp.airbyte.ai/mcp"
           }
   - id: airbyte-knowledge-mcp
-    name: Airbyte Knowledge MCP
-    description: Searches Airbyte product documentation and implementation guidance through Airbyte's hosted Kapa knowledge
-      server; no local installation is required.
+    name: Airbyte 知识 MCP
+    description: >-
+      搜索 Airbyte 产品文档和实现指南，通过 Airbyte 托管的 Kapa 知识服务提供结果，无需本地安装。
     author: Airbyte
     url: https://airbyte.mcp.kapa.ai
     category: search
@@ -108,9 +109,9 @@ items:
             "url": "https://airbyte.mcp.kapa.ai"
           }
   - id: amazon-keyspaces-mcp
-    name: Amazon Keyspaces MCP
-    description: Queries Amazon Keyspaces or Cassandra catalogs and rows through a local AWS Labs server that only exposes
-      read-only SELECT operations.
+    name: Amazon Keyspaces MCP 集成
+    description: >-
+      通过 AWS Labs 本地服务查询 Amazon Keyspaces 或 Cassandra 的目录和数据行，并且只暴露只读 SELECT 操作。
     author: AWS Labs
     url: https://github.com/awslabs/mcp/tree/main/src/amazon-keyspaces-mcp-server
     category: data
@@ -141,9 +142,9 @@ items:
         key: AWS_REGION
         placeholder: us-east-1
   - id: apify
-    name: Apify Actors
-    description: Enables AI assistants to interact with Apify's web scraping and automation actors, providing access to
-      tools for data extraction, web searching, social media analysis, and more.
+    name: Apify Actors 集成
+    description: >-
+      让代理调用 Apify 的网页抓取和自动化 Actors，用于数据抽取、网页搜索、社媒分析等任务。
     author: apify
     url: https://github.com/apify/actors-mcp-server
     category: web-automation
@@ -190,9 +191,9 @@ items:
         key: APIFY_TOKEN
         placeholder: your_apify_api_token
   - id: astronomer-docs-mcp
-    name: Astronomer Docs MCP
-    description: Searches Astronomer and Astro documentation through Astronomer's public hosted MCP endpoint without
-      requiring local credentials.
+    name: Astronomer 文档 MCP
+    description: >-
+      通过 Astronomer 公开托管的 MCP 端点搜索 Astronomer 与 Astro 文档，无需配置本地凭据。
     author: Astronomer
     url: https://www.astronomer.io/docs/_mcp/server
     category: search
@@ -206,10 +207,9 @@ items:
             "url": "https://www.astronomer.io/docs/_mcp/server"
           }
   - id: atlassian
-    name: Atlassian
-    description: Comprehensive MCP server for Atlassian tools (Confluence and Jira) supporting both Cloud and Server/Data
-      Center deployments with multiple authentication methods including API tokens, Personal Access Tokens, and OAuth
-      2.0.
+    name: Atlassian 集成
+    description: >-
+      接入 Confluence 和 Jira，支持 Cloud 与 Server/Data Center 部署，并可使用 API Token、个人访问令牌或 OAuth 2.0 认证。
     author: sooperset
     url: https://github.com/sooperset/mcp-atlassian
     category: productivity
@@ -291,9 +291,9 @@ items:
             key: JIRA_API_TOKEN
             placeholder: your_jira_api_token
   - id: aws
-    name: AWS Managed MCP Server
-    description: Connects to AWS's managed MCP service through the official SigV4 proxy, using local AWS credentials and an
-      explicitly selected operation region.
+    name: AWS 托管 MCP Server
+    description: >-
+      通过官方 SigV4 代理连接 AWS 托管 MCP 服务，使用本地 AWS 凭据并按配置选择操作区域。
     author: Amazon Web Services
     url: https://github.com/aws/mcp-proxy-for-aws
     category: development
@@ -327,9 +327,9 @@ items:
         key: AWS_REGION
         placeholder: us-east-1
   - id: aws-api-mcp
-    name: AWS API MCP
-    description: Executes validated AWS CLI read operations across AWS services, with local file access disabled and
-      authentication inherited from a named AWS profile.
+    name: AWS API MCP 集成
+    description: >-
+      执行经过校验的 AWS CLI 只读操作，继承指定 AWS profile 的认证，并禁用本地文件访问。
     author: AWS Labs
     url: https://github.com/awslabs/mcp/tree/main/src/aws-api-mcp-server
     category: development
@@ -362,9 +362,9 @@ items:
         key: AWS_REGION
         placeholder: us-east-1
   - id: aws-data-processing
-    name: AWS Data Processing MCP
-    description: Inspects AWS Glue, EMR, and Athena catalogs, jobs, clusters, and query metadata through the official AWS
-      Labs server with writes and sensitive result access disabled.
+    name: AWS 数据处理 MCP
+    description: >-
+      检查 AWS Glue、EMR 和 Athena 的目录、作业、集群与查询元数据，适合排查数据处理链路。
     author: AWS Labs
     url: https://github.com/awslabs/mcp/tree/main/src/aws-dataprocessing-mcp-server
     category: data
@@ -395,9 +395,9 @@ items:
         key: AWS_REGION
         placeholder: us-east-1
   - id: aws-kb-retrieval-server
-    name: AWS Knowledge Base
-    description: Retrieves information from AWS Knowledge Base using Bedrock Agent Runtime, supporting RAG-based queries
-      with customizable result counts.
+    name: AWS 知识 Base
+    description: >-
+      用于检索 AWS 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server
     category: search
@@ -441,9 +441,9 @@ items:
         key: AWS_REGION
         placeholder: us-east-1
   - id: aws-redshift-mcp
-    name: Amazon Redshift MCP
-    description: Discovers Redshift clusters and workgroups, inspects schemas, and runs read-only SQL using AWS credentials
-      and the official AWS Labs server.
+    name: Amazon Redshift MCP 集成
+    description: >-
+      用于查询 AWS 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: AWS Labs
     url: https://github.com/awslabs/mcp/tree/main/src/redshift-mcp-server
     category: data
@@ -474,9 +474,9 @@ items:
         key: AWS_REGION
         placeholder: us-east-1
   - id: aws-serverless-mcp
-    name: AWS Serverless MCP
-    description: Inspects Lambda, API Gateway, event-source, and serverless deployment resources through AWS Labs; mutating
-      and sensitive-data tools remain disabled by default.
+    name: AWS Serverless MCP 集成
+    description: >-
+      为代理接入 AWS，提供开发场景下常用的查询、操作或自动化能力。
     author: AWS Labs
     url: https://github.com/awslabs/mcp/tree/main/src/aws-serverless-mcp-server
     category: development
@@ -506,9 +506,9 @@ items:
         key: AWS_REGION
         placeholder: us-east-1
   - id: awslabs-kinesis-mcp-server
-    name: Amazon Kinesis MCP
-    description: Inspects Kinesis streams, consumers, shards, and limits with AWS credentials; write operations remain
-      disabled by the server's read-only flag.
+    name: Amazon Kinesis MCP 集成
+    description: >-
+      为代理接入 AWS，提供数据场景下常用的查询、操作或自动化能力。
     author: AWS Labs
     url: https://github.com/awslabs/mcp/tree/main/src/kinesis-mcp-server
     category: data
@@ -539,9 +539,9 @@ items:
         key: AWS_REGION
         placeholder: us-west-2
   - id: axiom
-    name: Axiom
-    description: Query and analyze data using Axiom Processing Language (APL), enabling AI agents to interact with Axiom
-      datasets through natural language.
+    name: Axiom 集成
+    description: >-
+      用于查询 Axiom 集成 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: axiomhq
     url: https://github.com/axiomhq/mcp-server-axiom
     category: observability
@@ -596,9 +596,9 @@ items:
         placeholder: your-org-id
         optional: true
   - id: azure
-    name: Azure MCP Server
-    description: Provides read-only discovery and diagnostics across Azure services through Microsoft's official server,
-      authenticated with the Azure Identity credential chain.
+    name: Azure MCP Server 集成
+    description: >-
+      用于分析和诊断Azure MCP Server 集成相关问题，帮助定位异常、理解上下文并给出后续处理建议。
     author: Microsoft
     url: https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server
     category: development
@@ -621,10 +621,9 @@ items:
             }
           }
   - id: azure-devops
-    name: Azure DevOps
-    description: Official Microsoft MCP server for Azure DevOps integration, bringing comprehensive Azure DevOps
-      functionality directly to your AI agents. Supports work items, repositories, builds, releases, test plans, and
-      search across your Azure DevOps organization with 50+ tools for complete DevOps automation.
+    name: Azure Dev Ops 集成
+    description: >-
+      用于检索 Azure、Microsoft 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: microsoft
     url: https://github.com/microsoft/azure-devops-mcp
     category: development
@@ -648,9 +647,9 @@ items:
             key: AZURE_DEVOPS_ORG
             placeholder: contoso
   - id: bigquery-mcp
-    name: BigQuery Remote MCP
-    description: Queries BigQuery through Google's hosted MCP endpoint using a dedicated Google identity with
-      backend-enforced read-only IAM roles.
+    name: Big 查询 远程 MCP
+    description: >-
+      用于查询 Google、BigQuery 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Google Cloud
     url: https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp
     category: data
@@ -667,9 +666,9 @@ items:
             "url": "https://bigquery.googleapis.com/mcp"
           }
   - id: brave-search
-    name: Brave Search
-    description: Integrates Brave Search API to provide comprehensive web and local search capabilities with smart
-      filtering, pagination, and automatic fallbacks.
+    name: Brave 搜索
+    description: >-
+      用于检索 Brave 搜索 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search
     category: search
@@ -705,9 +704,9 @@ items:
         key: BRAVE_API_KEY
         placeholder: your_brave_api_key_here
   - id: browserbase
-    name: Browserbase
-    description: Cloud browser automation server enabling LLMs to interact with web pages, take screenshots, extract data,
-      and execute JavaScript using Browserbase and Puppeteer.
+    name: Browserbase 集成
+    description: >-
+      用于运行 Puppeteer 相关命令或工具，帮助代理完成检查、生成、执行和验证流程。
     author: browserbase
     url: https://github.com/browserbase/mcp-server-browserbase
     category: web-automation
@@ -774,10 +773,9 @@ items:
         key: BROWSERBASE_PROJECT_ID
         placeholder: your_browserbase_project_id
   - id: clickup
-    name: ClickUp
-    description: Comprehensive ClickUp MCP server for project management integration with AI through Model Context Protocol.
-      Supports task management, time tracking, workspace organization, document management, member management, and tag
-      operations with 36 available tools for complete ClickUp automation.
+    name: Click Up 集成
+    description: >-
+      用于管理 Click Up 集成 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: taazkareem
     url: https://github.com/TaazKareem/clickup-mcp-server
     category: productivity
@@ -812,9 +810,9 @@ items:
             placeholder: "true"
             optional: true
   - id: cloudflare
-    name: Cloudflare
-    description: Manages Cloudflare resources including Workers, KV stores, R2 storage, D1 databases, and analytics through
-      natural language interactions.
+    name: Cloudflare 集成
+    description: >-
+      用于查询 Cloudflare 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: cloudflare
     url: https://github.com/cloudflare/mcp-server-cloudflare
     category: development
@@ -874,9 +872,9 @@ items:
         key: CLOUDFLARE_API_TOKEN
         placeholder: your_cloudflare_api_token_here
   - id: codegen
-    name: Codegen
-    description: Enables parsing codebases and executing codemods through standardized model inference, supporting various
-      LLM providers via integration with the Codegen SDK.
+    name: Codegen 集成
+    description: >-
+      为代理接入 Codegen 集成，提供开发场景下常用的查询、操作或自动化能力。
     author: codegen-sh
     url: https://github.com/codegen-sh/codegen-sdk/tree/develop/codegen-examples/examples/codegen-mcp-server
     category: development
@@ -912,9 +910,9 @@ items:
         key: PREREQUISITES
         placeholder: Requires uv and Python 3.12+
   - id: composer-trade
-    name: Composer
-    description: Official Composer MCP server that enables creation of automated investing strategies, backtesting, strategy
-      discovery, portfolio monitoring, and live trading through the Composer platform.
+    name: Composer 集成
+    description: >-
+      为代理接入 Composer 集成，提供业务场景下常用的查询、操作或自动化能力。
     author: invest-composer
     url: https://github.com/invest-composer/composer-trade-mcp
     category: business
@@ -943,9 +941,9 @@ items:
       - Composer.trade account (optional for backtesting)
       - Composer.trade subscription (required for live trading)
   - id: confluent
-    name: Confluent MCP Server
-    description: Connects to Confluent Cloud, Confluent Platform, or Kafka for read-focused topic, schema, connector, Flink,
-      metrics, and documentation inspection from a user-supplied config.
+    name: Confluent MCP Server 集成
+    description: >-
+      用于连接 Kafka，让代理能够访问相关服务、数据源或工具能力，并按配置的认证方式工作。
     author: Confluent
     url: https://github.com/confluentinc/mcp-confluent
     category: data
@@ -978,9 +976,9 @@ items:
         key: CONFLUENT_CONFIG_PATH
         placeholder: /absolute/path/to/config.yaml
   - id: context7
-    name: Context7
-    description: Up-to-date code documentation for LLMs and AI code editors. Provides version-specific documentation and
-      code examples straight from the source, eliminating outdated or hallucinated API information.
+    name: Context7 集成
+    description: >-
+      为代理接入 Context7 集成，提供搜索场景下常用的查询、操作或自动化能力。
     author: upstash
     url: https://github.com/upstash/context7
     category: search
@@ -1010,9 +1008,9 @@ items:
             "url": "https://mcp.context7.com/mcp"
           }
   - id: data-lineage-mcp
-    name: Google Cloud Data Lineage MCP
-    description: Searches Dataplex Data Lineage metadata through Google's hosted endpoint using Google OAuth credentials and
-      project-scoped IAM permissions.
+    name: Google 云 数据 血缘 MCP
+    description: >-
+      用于检索 Google 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: Google Cloud
     url: https://docs.cloud.google.com/dataplex/docs/use-lineage-mcp
     category: data
@@ -1029,9 +1027,9 @@ items:
             "url": "https://datalineage.googleapis.com/mcp"
           }
   - id: databricks-sql
-    name: Databricks SQL Managed MCP
-    description: Runs governed read-only Databricks SQL through the workspace-managed MCP endpoint using a dedicated
-      principal whose Unity Catalog grants deny writes.
+    name: Databricks SQL 托管 MCP
+    description: >-
+      用于查询 Databricks 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Databricks
     url: https://docs.databricks.com/aws/en/generative-ai/mcp/managed-mcp
     category: data
@@ -1058,9 +1056,9 @@ items:
         key: DATABRICKS_TOKEN
         placeholder: your_databricks_token
   - id: datadog-mcp-datadoghq
-    name: Datadog Managed MCP
-    description: Queries Datadog logs, metrics, traces, monitors, dashboards, and incidents through Datadog's official
-      hosted OAuth server for the selected Datadog site.
+    name: Datadog 托管 MCP
+    description: >-
+      用于查询 Datadog 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Datadog
     url: https://github.com/datadog-labs/mcp-server
     category: observability
@@ -1080,9 +1078,9 @@ items:
         key: DATADOG_MCP_HOST
         placeholder: mcp.datadoghq.com
   - id: datahub-mcp
-    name: DataHub Managed MCP
-    description: Searches DataHub assets, schemas, lineage, ownership, and SQL context through DataHub Cloud's hosted OAuth
-      endpoint with user-scoped catalog permissions.
+    name: 数据 Hub 托管 MCP
+    description: >-
+      用于检索 数据 Hub 托管 MCP 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: DataHub
     url: https://github.com/acryldata/mcp-server-datahub
     category: data
@@ -1098,9 +1096,9 @@ items:
             "url": "https://mcp.datahub.com/mcp"
           }
   - id: datarobot-global-mcp
-    name: DataRobot Global MCP
-    description: Accesses DataRobot predictive AI projects, deployments, and prediction tools through an account-specific
-      Global MCP endpoint authenticated by a DataRobot API token.
+    name: 数据 Robot Global MCP
+    description: >-
+      为代理接入 数据 Robot Global MCP，提供数据场景下常用的查询、操作或自动化能力。
     author: DataRobot
     url: https://docs.datarobot.com/en/docs/agentic-ai/agentic-mcp/agentic-mcp-clients.html
     category: data
@@ -1126,9 +1124,9 @@ items:
         key: DATAROBOT_API_TOKEN
         placeholder: your_datarobot_api_token
   - id: dbhub
-    name: DBHub
-    description: Connects to PostgreSQL, MySQL, MariaDB, SQL Server, or SQLite through Bytebase's token-efficient local MCP
-      server using a user-supplied TOML guardrail configuration.
+    name: DBHub 集成
+    description: >-
+      用于连接 PostgreSQL、MySQL，让代理能够访问相关服务、数据源或工具能力，并按配置的认证方式工作。
     author: Bytebase
     url: https://github.com/bytebase/dbhub
     category: data
@@ -1151,10 +1149,9 @@ items:
         key: DBHUB_CONFIG_PATH
         placeholder: /absolute/path/to/dbhub.toml
   - id: dbt
-    name: dbt
-    description: A MCP server for interacting with dbt, providing AI agents with context from dbt Core, dbt Fusion, and dbt
-      Platform. Supports SQL execution, Semantic Layer queries, project discovery, dbt CLI operations, Admin API
-      management, code generation, and column-level lineage tracing.
+    name: dbt 集成
+    description: >-
+      用于查询 dbt 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: dbt-labs
     url: https://github.com/dbt-labs/dbt-mcp
     category: data
@@ -1248,9 +1245,9 @@ items:
         key: DBT_HOST
         placeholder: cloud.getdbt.com
   - id: e2b
-    name: Code Interpreter
-    description: Adds secure code execution capabilities to Claude Desktop using E2B Sandbox, supporting both JavaScript and
-      Python environments.
+    name: 代码 Interpreter
+    description: >-
+      为代理接入 代码 Interpreter，提供开发场景下常用的查询、操作或自动化能力。
     author: e2b-dev
     url: https://github.com/e2b-dev/mcp-server
     category: development
@@ -1295,9 +1292,9 @@ items:
         key: E2B_API_KEY
         placeholder: your_e2b_api_key
   - id: elastic-agent-builder-mcp
-    name: Elastic Agent Builder MCP
-    description: Exposes Elastic Agent Builder tools from an account-specific Kibana endpoint using a least-privilege
-      Elastic API key scoped to the intended indices and Kibana space.
+    name: Elastic 代理 构建器 MCP
+    description: >-
+      为代理接入 Elastic 代理 构建器 MCP，提供可观测性场景下常用的查询、操作或自动化能力。
     author: Elastic
     url: https://www.elastic.co/docs/explore-analyze/ai-features/agent-builder/mcp-server
     category: observability
@@ -1324,9 +1321,9 @@ items:
         key: ELASTIC_API_KEY
         placeholder: your_elastic_api_key
   - id: esignatures
-    name: eSignatures
-    description: Manages digital contract workflows including creation, sending, and template management for electronic
-      signatures through the eSignatures platform.
+    name: e Signatures 集成
+    description: >-
+      用于管理 e Signatures 集成 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: esignaturescom
     url: https://github.com/esignaturescom/mcp-server-esignatures
     category: business
@@ -1372,9 +1369,9 @@ items:
         key: ESIGNATURES_SECRET_TOKEN
         placeholder: your_esignatures_api_secret_token
   - id: exa
-    name: Exa Search
-    description: Enables AI assistants to perform real-time web searches using Exa's AI Search API, providing structured
-      results with titles, URLs, and content snippets.
+    name: Exa 搜索
+    description: >-
+      用于检索 Exa 搜索 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: exa-labs
     url: https://github.com/exa-labs/exa-mcp-server
     category: search
@@ -1426,10 +1423,9 @@ items:
         key: EXA_API_KEY
         placeholder: your_exa_api_key_here
   - id: figma-dev-mode
-    name: Figma Dev Mode
-    description: Brings Figma directly into your workflow by providing important design information and context to AI agents
-      generating code from Figma design files. Enables code generation from selected frames, design context extraction,
-      and Code Connect integration.
+    name: Figma Dev Mode 集成
+    description: >-
+      为代理接入 Figma，提供开发场景下常用的查询、操作或自动化能力。
     author: figma
     url: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server
     category: development
@@ -1443,9 +1439,9 @@ items:
             "url": "http://127.0.0.1:3845/sse"
           }
   - id: filesystem
-    name: File System
-    description: Provides comprehensive filesystem operations including reading, writing, moving files, directory
-      management, and advanced file editing with pattern matching and formatting capabilities.
+    name: 文件 System
+    description: >-
+      用于管理 文件 System 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem
     category: development
@@ -1473,10 +1469,9 @@ items:
         key: ALLOWED_DIRECTORY
         placeholder: /Users/username/Documents
   - id: firebase
-    name: Firebase
-    description: The Firebase MCP server allows AI-powered development tools to work with your Firebase projects. It can
-      create and manage Firebase projects, manage Authentication users, work with data in Cloud Firestore and Data
-      Connect, retrieve schemas, understand security rules, and send messages with Cloud Messaging.
+    name: Firebase 集成
+    description: >-
+      为代理接入 Firebase，提供数据场景下常用的查询、操作或自动化能力。
     suggest_for:
       filename:
         - "*.rules"
@@ -1512,9 +1507,9 @@ items:
             placeholder: auth,firestore,storage
             optional: true
   - id: firecrawl
-    name: Firecrawl
-    description: Adds web scraping, crawling, mapping, search, and structured extraction to AI assistants, turning any URL
-      or query into clean, agent-ready data from the live web.
+    name: Firecrawl 集成
+    description: >-
+      为代理接入 Firecrawl 集成，提供网页自动化场景下常用的查询、操作或自动化能力。
     author: firecrawl
     url: https://github.com/firecrawl/firecrawl-mcp-server
     category: web-automation
@@ -1563,9 +1558,9 @@ items:
         key: FIRECRAWL_API_KEY
         placeholder: fc-your-api-key-here
   - id: fireproof
-    name: Fireproof
-    description: A JSON document store server providing CRUD operations and field-based sorting queries, powered by
-      Fireproof database for seamless integration with AI systems.
+    name: Fireproof 集成
+    description: >-
+      用于查询 Fireproof 集成 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: fireproof-storage
     url: https://github.com/fireproof-storage/mcp-database-server
     category: data
@@ -1591,9 +1586,9 @@ items:
         placeholder: /path/to/fireproof-mcp
         optional: true
   - id: fivetran-mcp-server
-    name: Fivetran MCP Server (Official)
-    description: Inspects Fivetran connectors, sync status, schedules, and account metadata through Fivetran's official
-      local server; POST, PATCH, and DELETE operations are disabled.
+    name: Fivetran MCP Server 官方
+    description: >-
+      为代理接入 Fivetran，提供数据场景下常用的查询、操作或自动化能力。
     author: Fivetran
     url: https://github.com/fivetran/fivetran-mcp
     category: data
@@ -1628,9 +1623,9 @@ items:
         key: FIVETRAN_API_SECRET
         placeholder: your_fivetran_api_secret
   - id: gcp-pubsub
-    name: Google Cloud Pub/Sub Remote MCP
-    description: Inspects Pub/Sub topics and subscriptions through Google's hosted MCP endpoint using a dedicated Google
-      identity whose IAM roles deny mutations.
+    name: Google 云 Pub Sub 远程 MCP
+    description: >-
+      为代理接入 Google，提供数据场景下常用的查询、操作或自动化能力。
     author: Google Cloud
     url: https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp
     category: data
@@ -1647,9 +1642,9 @@ items:
             "url": "https://pubsub.googleapis.com/mcp"
           }
   - id: gdrive
-    name: Google Drive
-    description: Enables searching, listing, and reading files from Google Drive, with automatic export of Google Workspace
-      files to common formats like Markdown, CSV, and PNG.
+    name: Google Drive 集成
+    description: >-
+      为代理接入 Google，提供搜索场景下常用的查询、操作或自动化能力。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive
     category: search
@@ -1682,9 +1677,9 @@ items:
         key: GDRIVE_CREDENTIALS_PATH
         placeholder: /path/to/.gdrive-server-credentials.json
   - id: genkit
-    name: Genkit Integration
-    description: Enables bi-directional integration with Model Context Protocol, allowing applications to both consume MCP
-      tools/prompts as a client and expose Genkit tools/prompts as an MCP server.
+    name: Genkit 集成
+    description: >-
+      为代理接入 Genkit 集成，提供开发场景下常用的查询、操作或自动化能力。
     author: firebase
     url: https://github.com/firebase/genkit/tree/HEAD/js/plugins/mcp
     category: development
@@ -1713,9 +1708,9 @@ items:
         key: PREREQUISITES
         placeholder: Requires Node.js 18+ and Genkit SDK installation
   - id: git
-    name: Git Tools
-    description: Provides Git repository interaction and automation tools for reading, searching, and manipulating Git
-      repositories through commands like status, diff, commit, branch management, and more.
+    name: Git 工具
+    description: >-
+      用于管理 Git 工具 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/git
     category: development
@@ -1759,10 +1754,9 @@ items:
         key: REPOSITORY_PATH
         placeholder: /path/to/git/repo
   - id: git-mcp
-    name: GitMCP
-    description: GitMCP is a free, open-source, remote MCP server that transforms any GitHub project (repositories or GitHub
-      pages) into a documentation hub. It enables AI tools like Cursor to access up-to-date documentation and code, even
-      if the LLM has never encountered them, thereby eliminating code hallucinations seamlessly.
+    name: Git MCP 集成
+    description: >-
+      为代理接入 GitHub，提供搜索场景下常用的查询、操作或自动化能力。
     author: idosal
     url: https://github.com/idosal/git-mcp
     category: search
@@ -1798,9 +1792,9 @@ items:
             key: REPO
             placeholder: typescript
   - id: github
-    name: GitHub
-    description: GitHub's official MCP Server that provides repository, issue, pull-request, action, and code access through
-      GitHub APIs.
+    name: Git Hub 集成
+    description: >-
+      为代理接入 GitHub，提供开发场景下常用的查询、操作或自动化能力。
     author: GitHub
     url: https://github.com/github/github-mcp-server
     category: development
@@ -1837,9 +1831,9 @@ items:
         key: GITHUB_PERSONAL_ACCESS_TOKEN
         placeholder: github_pat_your_fine_grained_token or ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   - id: gitlab
-    name: GitLab
-    description: Enables comprehensive GitLab project management including file operations, issue tracking, merge requests,
-      and repository management through the GitLab API.
+    name: Git Lab 集成
+    description: >-
+      用于管理 GitLab 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab
     category: development
@@ -1892,9 +1886,9 @@ items:
         key: GITLAB_API_URL
         placeholder: https://gitlab.com/api/v4
   - id: google-maps
-    name: Google Maps
-    description: Provides comprehensive access to Google Maps services including geocoding, place search, directions,
-      distance calculations, and elevation data through the Google Maps API.
+    name: Google 地图
+    description: >-
+      为代理接入 Google，提供搜索场景下常用的查询、操作或自动化能力。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps
     category: search
@@ -1941,9 +1935,9 @@ items:
         key: GOOGLE_MAPS_API_KEY
         placeholder: your_google_maps_api_key
   - id: google-maps-platform-code-assist
-    name: Google Maps Platform Code Assist
-    description: Official Google Maps Platform MCP for AI-powered code assistance. Provides tools to generate client-side
-      and server-side code for Maps, Routes, and Places APIs, helping developers build geospatial applications faster.
+    name: Google 地图平台代码辅助
+    description: >-
+      用于创建或生成Google 地图平台代码辅助相关内容，适合把需求快速转成可用的配置、文档、代码或素材。
     author: googlemaps
     url: https://github.com/googlemaps/platform-ai
     category: development
@@ -1959,9 +1953,9 @@ items:
             "args": ["-y", "@googlemaps/code-assist-mcp@0.2.0"]
           }
   - id: google-workspace
-    name: Google Workspace
-    description: Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI. The most
-      feature-complete Google Workspace / G Suite MCP server.
+    name: Google Workspace 集成
+    description: >-
+      用于检索 Google 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: taylorwilsdon
     url: https://github.com/taylorwilsdon/google_workspace_mcp
     category: productivity
@@ -1991,9 +1985,9 @@ items:
         key: GOOGLE_OAUTH_CLIENT_SECRET
         placeholder: your-google-oauth-client-secret
   - id: grafana-cloud-mcp
-    name: Grafana Cloud Managed MCP
-    description: Queries Grafana Cloud metrics, logs, traces, dashboards, alerts, and incidents through Grafana's hosted
-      OAuth 2.1 server; users can decline write scope during consent.
+    name: Grafana 云 托管 MCP
+    description: >-
+      用于查询 Grafana 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Grafana Labs
     url: https://grafana.com/docs/grafana-cloud/machine-learning/assistant/configure/cloud-mcp/
     category: observability
@@ -2009,8 +2003,9 @@ items:
             "url": "https://mcp.grafana.com/mcp"
           }
   - id: ida-pro
-    name: IDA Pro
-    description: An MCP server for interacting with the IDA Pro disassembler.
+    name: IDA Pro 集成
+    description: >-
+      为代理接入 IDA Pro 集成，提供开发场景下常用的查询、操作或自动化能力。
     suggest_for:
       filename:
         - "*.idb"
@@ -2031,10 +2026,9 @@ items:
             "args": ["--from", "git+https://github.com/mrexodia/ida-pro-mcp.git@f0af9fba733fb60fc13365b297b10c82db3771d7", "ida-pro-mcp"]
           }
   - id: jupyter
-    name: Jupyter AI MCP
-    description: Connects Kilo to JupyterLab through the built-in MCP server used by Jupyter AI, an incubating JupyterLab
-      project. Provides tools to inspect, create, edit, and execute notebooks and cells in a running local Jupyter
-      server.
+    name: Jupyter AI MCP 集成
+    description: >-
+      用于连接 Jupyter，让代理能够访问相关服务、数据源或工具能力，并按配置的认证方式工作。
     suggest_for:
       filename:
         - "*.ipynb"
@@ -2063,9 +2057,9 @@ items:
         key: JUPYTER_MCP_URL
         placeholder: http://127.0.0.1:3001/mcp
   - id: jupyter-mcp
-    name: Datalayer Jupyter MCP (Local stdio)
-    description: Runs Datalayer's local stdio client to read, edit, and execute Jupyter notebooks and manage kernels; use
-      the separate Jupyter AI entry for its built-in HTTP endpoint.
+    name: Datalayer Jupyter MCP 本地 stdio
+    description: >-
+      用于运行 Jupyter 相关命令或工具，帮助代理完成检查、生成、执行和验证流程。
     author: Datalayer
     url: https://github.com/datalayer/jupyter-mcp-server
     category: data
@@ -2096,9 +2090,9 @@ items:
         key: JUPYTER_TOKEN
         placeholder: your_jupyter_token
   - id: kagi
-    name: Kagi Search
-    description: Integrates Kagi's advanced search API to provide AI assistants with up-to-date web search capabilities and
-      accurate information retrieval.
+    name: Kagi 搜索
+    description: >-
+      用于检索 Kagi 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: kagisearch
     url: https://github.com/kagisearch/kagimcp
     category: search
@@ -2152,9 +2146,9 @@ items:
         placeholder: cecil
         optional: true
   - id: knowledge-catalog-mcp
-    name: Google Cloud Knowledge Catalog MCP
-    description: Discovers Dataplex Universal Catalog entries, metadata, profiles, and data-quality results through Google's
-      hosted MCP endpoint using Google OAuth and IAM.
+    name: Google 云 知识 目录 MCP
+    description: >-
+      为代理接入 Google，提供数据场景下常用的查询、操作或自动化能力。
     author: Google Cloud
     url: https://docs.cloud.google.com/dataplex/docs/use-remote-mcp
     category: data
@@ -2171,10 +2165,9 @@ items:
             "url": "https://dataplex.googleapis.com/mcp"
           }
   - id: laravel-boost
-    name: Laravel Boost
-    description: Official Laravel MCP server providing comprehensive AI-powered development tools including database schema
-      inspection, query execution, route analysis, artisan command access, configuration management, documentation
-      search, error tracking, and extensible skills system for Laravel applications.
+    name: Laravel Boost 集成
+    description: >-
+      用于查询 Laravel 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: laravel
     url: https://github.com/laravel/boost
     category: development
@@ -2198,9 +2191,9 @@ items:
           }
     parameters: []
   - id: linear
-    name: Linear
-    description: Facilitates project management with the Linear API, enabling issue tracking, project organization, and team
-      management through comprehensive tools for creating, updating, and managing work items.
+    name: Linear 集成
+    description: >-
+      用于管理 Linear 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: cline
     url: https://github.com/cline/linear-mcp
     category: productivity
@@ -2239,9 +2232,9 @@ items:
         placeholder: /path/to/linear-mcp
         optional: true
   - id: looker-toolbox
-    name: Looker MCP Toolbox
-    description: Runs Google's local MCP Toolbox prebuilt for Looker, providing query, content, and LookML context with
-      Looker API client credentials.
+    name: Looker MCP 工具箱
+    description: >-
+      用于运行 Google、Looker 相关命令或工具，帮助代理完成检查、生成、执行和验证流程。
     author: Google Cloud
     url: https://github.com/googleapis/mcp-toolbox
     category: data
@@ -2275,9 +2268,9 @@ items:
         key: LOOKER_CLIENT_SECRET
         placeholder: your_looker_client_secret
   - id: matillion
-    name: Matillion MCP Server
-    description: Monitors Matillion pipelines, executions, lineage, agents, and credit consumption with OAuth client
-      credentials; all mutating tools are disabled by default.
+    name: Matillion MCP Server 集成
+    description: >-
+      为代理接入 Matillion，提供数据场景下常用的查询、操作或自动化能力。
     author: Matillion
     url: https://docs.maia.ai/docs/api-reference/mcp-server
     category: data
@@ -2313,9 +2306,9 @@ items:
         key: MATILLION_REGION
         placeholder: eu
   - id: mcp-grafana
-    name: Grafana MCP (Local)
-    description: Runs Grafana's open-source local server for dashboards, alerts, metrics, logs, and traces against Grafana
-      Cloud or self-hosted Grafana with write tools disabled.
+    name: Grafana MCP 本地
+    description: >-
+      用于运行 Grafana 相关命令或工具，帮助代理完成检查、生成、执行和验证流程。
     author: Grafana Labs
     url: https://github.com/grafana/mcp-grafana
     category: observability
@@ -2345,9 +2338,9 @@ items:
         key: GRAFANA_SERVICE_ACCOUNT_TOKEN
         placeholder: your_grafana_service_account_token
   - id: membrane-cloud-mcp
-    name: Membrane Cloud MCP
-    description: Exposes Membrane connections, actions, and data queries through Membrane's hosted OAuth MCP endpoint with
-      permissions inherited from the signed-in account.
+    name: Membrane 云 MCP
+    description: >-
+      用于查询 Membrane 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Membrane
     url: https://docs.getmembrane.com/docs/ways-to-use-membrane/mcp
     category: productivity
@@ -2363,9 +2356,9 @@ items:
             "url": "https://api.getmembrane.com/mcp/integrate-anything"
           }
   - id: memory
-    name: Knowledge Graph Memory
-    description: A persistent memory system using a local knowledge graph that enables AI assistants to remember information
-      about users across conversations through entities, relations, and observations.
+    name: 知识 Graph 记忆
+    description: >-
+      为代理接入 知识 Graph 记忆，提供数据场景下常用的查询、操作或自动化能力。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/memory
     category: data
@@ -2404,9 +2397,9 @@ items:
             key: MEMORY_FILE_PATH
             placeholder: /path/to/custom/memory.json
   - id: metoro
-    name: Kubernetes Observer
-    description: Enables interaction with Kubernetes clusters through Metoro's observability platform, providing eBPF-based
-      telemetry and monitoring capabilities via natural language queries.
+    name: Kubernetes Observer 集成
+    description: >-
+      为代理接入 Kubernetes，提供可观测性场景下常用的查询、操作或自动化能力。
     author: metoro-io
     url: https://github.com/metoro-io/metoro-mcp-server
     category: observability
@@ -2444,9 +2437,9 @@ items:
         key: METORO_API_URL
         placeholder: https://us-east.metoro.io
   - id: microsoft-data-api-builder
-    name: Microsoft SQL MCP Server
-    description: Runs Data API builder's self-hosted SQL MCP server over stdio, exposing only the database entities and
-      operations allowed by the supplied DAB configuration and RBAC policy.
+    name: Microsoft SQL MCP Server 集成
+    description: >-
+      用于查询 Microsoft SQL MCP Server 集成 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Microsoft
     url: https://github.com/Azure/data-api-builder
     category: data
@@ -2479,9 +2472,9 @@ items:
         key: DAB_CONFIG_PATH
         placeholder: /absolute/path/to/dab-config.json
   - id: microsoft-learn
-    name: Microsoft Learn
-    description: Official Microsoft Learn MCP server that provides access to Microsoft Learn content, including
-      documentation, tutorials, and learning paths.
+    name: Microsoft Learn 集成
+    description: >-
+      为代理接入 Microsoft，提供搜索场景下常用的查询、操作或自动化能力。
     author: microsoft
     url: https://github.com/microsoftdocs/mcp
     category: search
@@ -2495,9 +2488,9 @@ items:
             "url": "https://learn.microsoft.com/api/mcp"
           }
   - id: mlflow-mcp
-    name: MLflow MCP (Official)
-    description: Runs MLflow's official trace-focused MCP server for searching and inspecting MLflow traces against the
-      configured tracking server.
+    name: MLflow MCP 官方
+    description: >-
+      用于运行 MLflow 相关命令或工具，帮助代理完成检查、生成、执行和验证流程。
     author: MLflow
     url: https://github.com/mlflow/mlflow
     category: data
@@ -2528,9 +2521,9 @@ items:
         placeholder: your_mlflow_token
         optional: true
   - id: mongodb-mcp-server
-    name: MongoDB MCP Server
-    description: Queries MongoDB databases and Atlas metadata with connection-string or Atlas service-account
-      authentication, with read-only tools enabled by default for safe schema and data analysis.
+    name: Mongo DB MCP Server 集成
+    description: >-
+      用于查询 MongoDB 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: MongoDB
     url: https://github.com/mongodb-js/mongodb-mcp-server
     category: data
@@ -2572,9 +2565,9 @@ items:
         placeholder: your_atlas_service_account_client_secret
         optional: true
   - id: motherduck
-    name: MotherDuck
-    description: Enables database operations with MotherDuck and local DuckDB, providing tools for connection
-      initialization, schema reading, and query execution.
+    name: MotherDuck 集成
+    description: >-
+      用于查询 MotherDuck 集成 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     suggest_for:
       filename:
         - "*.duckdb"
@@ -2626,10 +2619,9 @@ items:
         key: MOTHERDUCK_TOKEN
         placeholder: your_motherduck_token_here
   - id: n8n-mcp
-    name: n8n-MCP
-    description: A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to n8n node
-      documentation, properties, and operations. Deploy in minutes to give Claude and other AI assistants deep knowledge
-      about n8n's 525+ workflow automation nodes.
+    name: n8n MCP 集成
+    description: >-
+      为代理接入 n8n，提供效率工具场景下常用的查询、操作或自动化能力。
     author: czlonkowski
     url: https://github.com/czlonkowski/n8n-mcp
     category: productivity
@@ -2715,9 +2707,9 @@ items:
             key: N8N_API_KEY
             placeholder: your-api-key
   - id: needle
-    name: Needle Search
-    description: Enables document management and natural language search capabilities through the Needle platform, allowing
-      users to organize, store, and retrieve documents using Claude's language model.
+    name: Needle 搜索
+    description: >-
+      用于检索 Needle 搜索 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: needle-ai
     url: https://github.com/needle-ai/needle-mcp
     category: search
@@ -2751,9 +2743,9 @@ items:
         key: NEEDLE_API_KEY
         placeholder: your_needle_api_key
   - id: neon
-    name: Neon Database
-    description: Enables read-only natural language interaction with Neon PostgreSQL databases through Neon's official
-      hosted MCP endpoint.
+    name: Neon 数据库
+    description: >-
+      用于查询 PostgreSQL、Neon 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Neon
     url: https://github.com/neondatabase/mcp-server-neon
     category: data
@@ -2783,9 +2775,9 @@ items:
         placeholder: your_neon_api_key
         optional: true
   - id: new-relic-ai-mcp
-    name: New Relic AI MCP (Official Remote)
-    description: Investigates New Relic entities, telemetry, alerts, incidents, logs, and NRQL through New Relic's hosted
-      MCP service using a user API key whose RBAC grants determine data access.
+    name: New Relic AI MCP 官方 远程
+    description: >-
+      为代理接入 New Relic AI MCP 官方 远程，提供可观测性场景下常用的查询、操作或自动化能力。
     author: New Relic
     url: https://github.com/newrelic/mcp-server
     category: observability
@@ -2818,9 +2810,9 @@ items:
         key: NEW_RELIC_API_KEY
         placeholder: NRAK-your-user-api-key
   - id: nia
-    name: Nia
-    description: Nia is an API and MCP layer that gives agents continuously updated context from libraries, research papers,
-      and docs, so they don't hallucinate and you skip manual ingestion.
+    name: Nia 集成
+    description: >-
+      用于检索 Nia 集成 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: Nozomio Labs
     url: https://docs.trynia.ai
     category: search
@@ -2843,9 +2835,9 @@ items:
         key: NIA_API_KEY
         placeholder: your_nia_api_key_here
   - id: nifi-mcp-server
-    name: Cloudera NiFi MCP Server
-    description: Inspects and troubleshoots Apache NiFi 1.x or 2.x flows through Apache Knox, with processor, connection,
-      bulletin, and health tools and read-only mode enabled by default.
+    name: Cloudera Ni Fi MCP Server 集成
+    description: >-
+      用于分析和诊断Cloudera Ni Fi MCP Server 集成相关问题，帮助定位异常、理解上下文并给出后续处理建议。
     author: Cloudera
     url: https://github.com/cloudera/NiFi-MCP-Server
     category: data
@@ -2882,10 +2874,9 @@ items:
         key: KNOX_TOKEN
         placeholder: your_knox_bearer_token
   - id: notion
-    name: Notion
-    description: Official Notion MCP Server that provides seamless integration with Notion APIs, enabling advanced
-      automation and interaction capabilities for managing pages, databases, comments, and content within Notion
-      workspaces.
+    name: Notion 集成
+    description: >-
+      用于查询 Notion 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: makenotion
     url: https://github.com/makenotion/notion-mcp-server
     category: productivity
@@ -2950,9 +2941,9 @@ items:
         key: NOTION_API_KEY
         placeholder: ntn_your_notion_integration_token
   - id: nteract
-    name: nteract MCP
-    description: Connects Kilo to nteract, a local-first desktop Jupyter notebook app, so agents can create, edit, execute,
-      save, and open interactive notebooks through the nteract daemon.
+    name: nteract MCP 集成
+    description: >-
+      用于连接 Jupyter，让代理能够访问相关服务、数据源或工具能力，并按配置的认证方式工作。
     author: nteract
     url: https://github.com/nteract/nteract
     category: data
@@ -2999,9 +2990,9 @@ items:
         key: RUNT_PATH
         placeholder: /absolute/path/to/runt or C:\path\to\runt.exe
   - id: oci-api-mcp
-    name: Oracle OCI CLI MCP Server
-    description: Discovers and runs non-mutating OCI CLI commands through a dedicated local OCI profile whose backend
-      policies deny resource changes.
+    name: Oracle OCI CLI MCP Server 集成
+    description: >-
+      用于运行 OCI 相关命令或工具，帮助代理完成检查、生成、执行和验证流程。
     author: Oracle
     url: https://github.com/oracle/mcp/tree/main/src/oci-api-mcp-server
     category: development
@@ -3033,9 +3024,9 @@ items:
         placeholder: DEFAULT
         optional: true
   - id: oci-cloud-mcp
-    name: Oracle OCI Cloud MCP Server
-    description: Discovers and invokes non-mutating OCI Python SDK operations through a dedicated OCI profile whose backend
-      policies deny resource changes.
+    name: Oracle OCI 云 MCP Server
+    description: >-
+      为代理接入 OCI，提供开发场景下常用的查询、操作或自动化能力。
     author: Oracle
     url: https://github.com/oracle/mcp/tree/main/src/oci-cloud-mcp-server
     category: development
@@ -3071,9 +3062,9 @@ items:
         placeholder: us-ashburn-1
         optional: true
   - id: oci-database-tools-mcp
-    name: OCI Database Tools Managed MCP
-    description: Runs approved SQL reports and custom SQL or PL/SQL tools through an OCI Database Tools managed server,
-      authenticated by an OCI OAuth or personal access token and constrained by assigned application roles.
+    name: OCI 数据库 工具 托管 MCP
+    description: >-
+      用于查询 OCI 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Oracle
     url: https://docs.oracle.com/en-us/iaas/database-tools/doc/overview-mcp-server.html
     category: data
@@ -3100,9 +3091,9 @@ items:
         key: OCI_DBTOOLS_ACCESS_TOKEN
         placeholder: your_oauth_or_personal_access_token
   - id: okta-mcp-server
-    name: Okta MCP Server (Official)
-    description: Reads users, groups, applications, policies, and system logs from an Okta organization through device
-      OAuth, exposing only tools covered by the configured least-privilege scopes.
+    name: Okta MCP Server 官方
+    description: >-
+      为代理接入 Okta，提供开发场景下常用的查询、操作或自动化能力。
     author: Okta
     url: https://github.com/okta/okta-mcp-server
     category: development
@@ -3140,10 +3131,9 @@ items:
         key: OKTA_SCOPES
         placeholder: okta.users.read okta.groups.read okta.apps.read okta.logs.read
   - id: openapi-mcp
-    name: OpenAPI MCP Server
-    description: Converts a reviewed local OpenAPI specification into callable MCP tools for API discovery and invocation.
-      The target base URL must be explicitly trusted and must not resolve to loopback, link-local, or private networks
-      unless that access is intentional.
+    name: OpenAPI MCP Server 集成
+    description: >-
+      为代理接入 OpenAPI MCP Server 集成，提供开发场景下常用的查询、操作或自动化能力。
     author: ivo-toby
     url: https://github.com/ivo-toby/mcp-openapi-server
     category: development
@@ -3182,9 +3172,9 @@ items:
         placeholder: Authorization:Bearer your-token
         optional: true
   - id: openmetadata-mcp
-    name: OpenMetadata MCP (Embedded)
-    description: Connects to the MCP service embedded in OpenMetadata 1.12+ for catalog search, entity details, lineage,
-      glossary, and data-quality workflows using OAuth or a PAT with the user's OpenMetadata RBAC permissions.
+    name: Open 元数据 MCP Embedded
+    description: >-
+      用于连接 OpenMetadata，让代理能够访问相关服务、数据源或工具能力，并按配置的认证方式工作。
     author: OpenMetadata
     url: https://github.com/open-metadata/OpenMetadata/tree/main/openmetadata-mcp
     category: data
@@ -3211,9 +3201,9 @@ items:
         key: OPENMETADATA_TOKEN
         placeholder: your_least_privilege_personal_access_token
   - id: openmetadata-us-all
-    name: OpenMetadata MCP (Community Full CRUD)
-    description: Exposes broad OpenMetadata entity, lineage, governance, quality, and search APIs from a standalone
-      community server, using a bot JWT and keeping mutation tools disabled by default.
+    name: Open 元数据 MCP 社区 完整 CRUD
+    description: >-
+      用于检索 OpenMetadata 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: us-all
     url: https://github.com/us-all/openmetadata-mcp-server
     category: data
@@ -3247,10 +3237,9 @@ items:
         key: OPENMETADATA_TOKEN
         placeholder: your_read_only_bot_jwt
   - id: oracle-sqlcl-mcp
-    name: Oracle SQLcl MCP Server
-    description: Uses saved SQLcl connections to inspect schemas and run SQL, PL/SQL, and SQLcl operations against Oracle
-      Database, starting at SQLcl's most restrictive command level and relying on database-role permissions for data
-      access.
+    name: Oracle SQLcl MCP Server 集成
+    description: >-
+      用于查询 Oracle 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Oracle
     url: https://docs.oracle.com/en/database/oracle/sql-developer-command-line/26.1/sqcug/using-oracle-sqlcl-mcp-server.html
     category: data
@@ -3284,9 +3273,9 @@ items:
         placeholder: /path/to/network/admin
         optional: true
   - id: oxylabs
-    name: Oxylabs Scraper
-    description: Advanced web scraping tool using Oxylabs Web Scraper API, supporting JavaScript rendering, HTML parsing,
-      and content transformation with flexible parsing options.
+    name: Oxylabs Scraper 集成
+    description: >-
+      为代理接入 Oxylabs Scraper 集成，提供网页自动化场景下常用的查询、操作或自动化能力。
     author: oxylabs
     url: https://github.com/oxylabs/oxylabs-mcp
     category: web-automation
@@ -3337,10 +3326,9 @@ items:
         key: OXYLABS_PASSWORD
         placeholder: your_oxylabs_password
   - id: playwright
-    name: Playwright
-    description: Official Microsoft MCP server providing browser automation capabilities using Playwright. Enables LLMs to
-      interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or
-      visually-tuned models. Supports fast and lightweight automation with deterministic tool application.
+    name: Playwright 集成
+    description: >-
+      为代理接入 Microsoft、Playwright，提供网页自动化场景下常用的查询、操作或自动化能力。
     author: microsoft
     url: https://github.com/microsoft/playwright-mcp
     category: web-automation
@@ -3390,9 +3378,9 @@ items:
             key: STORAGE_STATE_PATH
             placeholder: /path/to/storage.json
   - id: postgres
-    name: PostgreSQL Reader
-    description: Provides read-only access to PostgreSQL databases, allowing LLMs to inspect database schemas and execute
-      read-only queries within protected transactions.
+    name: Postgre SQL 读取器
+    description: >-
+      用于查询 PostgreSQL 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres
     category: data
@@ -3420,9 +3408,9 @@ items:
         key: POSTGRESQL_URL
         placeholder: postgresql://user:password@localhost:5432/mydb
   - id: postgres-mcp-pro
-    name: Postgres MCP Pro
-    description: Analyzes PostgreSQL schemas, query plans, indexes, workloads, and database health while executing SQL in
-      restricted read-only transactions by default.
+    name: Postgres MCP Pro 集成
+    description: >-
+      用于查询 PostgreSQL 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Crystal DBA
     url: https://github.com/crystaldba/postgres-mcp
     category: data
@@ -3451,9 +3439,9 @@ items:
         key: DATABASE_URI
         placeholder: postgresql://readonly_user:password@localhost:5432/database
   - id: postgrest
-    name: Postgrest
-    description: Enables database operations on PostgreSQL through PostgREST, supporting SQL-to-REST conversion and direct
-      API requests for querying and modifying data.
+    name: Postgrest 集成
+    description: >-
+      用于查询 PostgreSQL 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: supabase-community
     url: https://github.com/supabase-community/mcp-supabase/tree/HEAD/packages/mcp-server-postgrest
     category: data
@@ -3529,9 +3517,9 @@ items:
         key: POSTGREST_SCHEMA
         placeholder: public
   - id: power-bi-modeling
-    name: Power BI Modeling MCP (Local)
-    description: Connects locally to Power BI Desktop, Fabric semantic models, or PBIP/TMDL projects for metadata
-      inspection, DAX validation, and model analysis with write operations disabled.
+    name: Power BI 建模 MCP 本地
+    description: >-
+      用于连接 Power BI 建模 MCP 本地，让代理能够访问相关服务、数据源或工具能力，并按配置的认证方式工作。
     author: Microsoft
     url: https://github.com/microsoft/powerbi-modeling-mcp
     category: data
@@ -3555,9 +3543,9 @@ items:
             ]
           }
   - id: power-bi-remote
-    name: Power BI Remote MCP
-    description: Queries Power BI semantic-model schemas and data through Microsoft's hosted service, generating and
-      executing DAX under the signed-in user's Entra ID and Power BI permissions.
+    name: Power BI 远程 MCP
+    description: >-
+      用于查询 Microsoft 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Microsoft
     url: https://learn.microsoft.com/en-us/power-bi/developer/mcp/remote-mcp-server-get-started
     category: data
@@ -3575,9 +3563,9 @@ items:
             "url": "https://api.fabric.microsoft.com/v1/mcp/powerbi"
           }
   - id: prefect-mcp-server
-    name: Prefect MCP Server
-    description: Provides read-only inspection of Prefect Cloud or self-hosted flows, deployments, runs, logs, work pools,
-      automations, events, and current Prefect documentation using a local profile or API credentials.
+    name: Prefect MCP Server 集成
+    description: >-
+      为代理接入 Prefect，提供数据场景下常用的查询、操作或自动化能力。
     author: Prefect
     url: https://github.com/PrefectHQ/prefect-mcp-server
     category: data
@@ -3613,9 +3601,9 @@ items:
         placeholder: your_prefect_api_key
         optional: true
   - id: puppeteer
-    name: Puppeteer
-    description: Provides browser automation capabilities using Puppeteer, enabling web page interaction, screenshots, and
-      JavaScript execution in a real browser environment.
+    name: Puppeteer 集成
+    description: >-
+      为代理接入 Puppeteer，提供网页自动化场景下常用的查询、操作或自动化能力。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer
     category: web-automation
@@ -3639,9 +3627,9 @@ items:
             "args": ["run", "-i", "--rm", "--init", "-e", "DOCKER_CONTAINER=true", "mcp/puppeteer"]
           }
   - id: qdrant
-    name: Qdrant
-    description: A semantic memory layer enabling storage and retrieval of vector-based memories using the Qdrant vector
-      search engine, with support for both cloud and local deployments.
+    name: Qdrant 集成
+    description: >-
+      用于检索 Qdrant 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: qdrant
     url: https://github.com/qdrant/mcp-server-qdrant
     category: data
@@ -3735,9 +3723,9 @@ items:
         placeholder: sentence-transformers/all-MiniLM-L6-v2
         optional: true
   - id: qlik-mcp
-    name: Qlik Cloud MCP (Official Remote)
-    description: Searches and works with applications, datasets, data products, lineage, and other Qlik Cloud resources
-      through the tenant-hosted MCP service using user OAuth and existing Qlik roles and space permissions.
+    name: Qlik 云 MCP 官方 远程
+    description: >-
+      用于检索 Qlik 云 MCP 官方 远程 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: Qlik
     url: https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikMCP/Qlik-MCP-server.htm
     category: data
@@ -3758,10 +3746,9 @@ items:
         key: QLIK_TENANT_HOST
         placeholder: your-tenant.us.qlikcloud.com
   - id: raygun
-    name: Raygun
-    description: Provides comprehensive access to Raygun's error tracking, crash reporting, and real user monitoring
-      features through API integration, enabling management of applications, errors, deployments, and performance
-      metrics.
+    name: Raygun 集成
+    description: >-
+      用于管理 Raygun 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: MindscapeHQ
     url: https://github.com/MindscapeHQ/mcp-server-raygun
     category: observability
@@ -3801,9 +3788,9 @@ items:
         key: RAYGUN_PAT_TOKEN
         placeholder: your_raygun_pat_token
   - id: redis
-    name: Redis
-    description: Provides access to Redis key-value stores, enabling operations like setting, getting, deleting, and listing
-      keys with optional expiration time support.
+    name: Redis 集成
+    description: >-
+      为代理接入 Redis，提供数据场景下常用的查询、操作或自动化能力。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/redis
     category: data
@@ -3870,9 +3857,9 @@ items:
         key: REDIS_URL
         placeholder: redis://localhost:6379
   - id: redis-cloud-mcp
-    name: Redis Cloud Administration MCP
-    description: Manages Redis Cloud accounts, subscriptions, plans, payment methods, and provisioning tasks through the
-      Redis Cloud API using account API-key credentials; this server does not access database data.
+    name: Redis 云 Administration MCP
+    description: >-
+      用于查询 Redis 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Redis
     url: https://github.com/redis/mcp-redis-cloud
     category: development
@@ -3905,9 +3892,9 @@ items:
         key: REDIS_CLOUD_SECRET_KEY
         placeholder: your_redis_cloud_api_secret
   - id: redis-mcp
-    name: Redis Data MCP (Official)
-    description: Reads, searches, and manages Redis strings, hashes, lists, sets, streams, JSON documents, and vector
-      indexes using a Redis ACL user; configure a read-only ACL user for safe analysis.
+    name: Redis 数据 MCP 官方
+    description: >-
+      用于管理 Redis 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: Redis
     url: https://github.com/redis/mcp-redis
     category: data
@@ -3960,9 +3947,9 @@ items:
         placeholder: "false"
         optional: true
   - id: riza
-    name: Riza
-    description: Provides a secure code interpreter for executing LLM-generated code, with features for creating, saving,
-      managing, and executing code tools in an isolated environment.
+    name: Riza 集成
+    description: >-
+      用于创建或生成Riza 集成相关内容，适合把需求快速转成可用的配置、文档、代码或素材。
     author: riza-io
     url: https://github.com/riza-io/riza-mcp
     category: development
@@ -3985,9 +3972,9 @@ items:
         key: RIZA_API_KEY
         placeholder: your_riza_api_key
   - id: s3-tables-mcp
-    name: AWS S3 Tables MCP Server
-    description: Lists and queries S3 table buckets, namespaces, tables, schemas, policies, and metadata using the selected
-      AWS profile, with create and append tools disabled by default.
+    name: AWS S3 Tables MCP Server 集成
+    description: >-
+      用于查询 AWS 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: AWS Labs
     url: https://github.com/awslabs/mcp/tree/main/src/s3-tables-mcp-server
     category: data
@@ -4020,9 +4007,9 @@ items:
         key: AWS_REGION
         placeholder: us-east-1
   - id: sagemaker-spark-troubleshooting-mcp
-    name: SageMaker Unified Studio Spark Troubleshooting MCP
-    description: Diagnoses failed Spark workloads on EMR, EMR Serverless, Glue, and SageMaker by securely signing requests
-      to AWS's managed troubleshooting endpoint with the selected AWS profile and region.
+    name: SageMaker Unified Studio Spark 排障 MCP
+    description: >-
+      用于分析和诊断SageMaker Unified Studio Spark 排障 MCP相关问题，帮助定位异常、理解上下文并给出后续处理建议。
     author: AWS Labs
     url: https://awslabs.github.io/mcp/servers/sagemaker-unified-studio-spark-troubleshooting-mcp-server
     category: observability
@@ -4059,9 +4046,9 @@ items:
         key: AWS_REGION
         placeholder: us-east-1
   - id: sentry
-    name: Sentry
-    description: Retrieves and analyzes error reports, stacktraces, and debugging information from Sentry.io, enabling AI
-      assistants to inspect and understand application issues.
+    name: Sentry 集成
+    description: >-
+      用于检索 Sentry 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry
     category: observability
@@ -4097,9 +4084,9 @@ items:
         key: SENTRY_AUTH_TOKEN
         placeholder: your_sentry_auth_token_here
   - id: sequentialthinking
-    name: Sequential Thinking
-    description: A structured problem-solving tool that enables step-by-step analysis, thought revision, and branching logic
-      for complex reasoning tasks.
+    name: Sequential Thinking 集成
+    description: >-
+      为代理接入 Sequential Thinking 集成，提供效率工具场景下常用的查询、操作或自动化能力。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
     category: productivity
@@ -4123,9 +4110,9 @@ items:
             "args": ["run", "--rm", "-i", "mcp/sequentialthinking"]
           }
   - id: slack
-    name: Slack
-    description: Enables AI assistants to interact with Slack workspaces, providing tools for messaging, channel management,
-      reactions, user profiles, and thread management.
+    name: Slack 集成
+    description: >-
+      用于管理 Slack 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack
     category: productivity
@@ -4172,10 +4159,9 @@ items:
         placeholder: C01234567,C76543210
         optional: true
   - id: smartsheet
-    name: Smartsheet
-    description: A Model Context Protocol (MCP) server for interacting with the Smartsheet API. This server provides tools
-      for searching, retrieving, and updating Smartsheet sheets through the MCP protocol. Please follow the installation
-      instructions at https://github.com/smartsheet-platform/smar-mcp before using this server.
+    name: Smartsheet 集成
+    description: >-
+      为代理接入 GitHub，提供效率工具场景下常用的查询、操作或自动化能力。
     author: smartsheet-platform
     url: https://github.com/smartsheet-platform/smar-mcp
     category: productivity
@@ -4205,9 +4191,9 @@ items:
         placeholder: /path/to/smar-mcp
         optional: true
   - id: snowflake-managed
-    name: Snowflake-Managed MCP Server
-    description: Exposes governed Cortex Analyst, Cortex Search, Cortex Agents, SQL, and custom tools from a
-      Snowflake-managed MCP server using Snowflake OAuth and the signed-in user's default role.
+    name: Snowflake 托管 MCP Server
+    description: >-
+      用于查询 Snowflake、Cortex 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Snowflake
     url: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
     category: data
@@ -4237,9 +4223,9 @@ items:
         key: SNOWFLAKE_MCP_SERVER
         placeholder: YOUR_MCP_SERVER
   - id: spark-history
-    name: Kubeflow Spark History Server MCP
-    description: Investigates Spark application, job, stage, executor, SQL, configuration, and bottleneck data from a Spark
-      History Server using optional basic or bearer-token authentication.
+    name: Kubeflow Spark History Server MCP 集成
+    description: >-
+      用于查询 Kubeflow Spark History Server MCP 集成 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Kubeflow
     url: https://github.com/kubeflow/mcp-apache-spark-history-server
     category: observability
@@ -4285,9 +4271,9 @@ items:
         placeholder: your_bearer_token
         optional: true
   - id: splunk-mcp-server
-    name: Splunk MCP Server (Official)
-    description: Searches Splunk data, discovers knowledge objects, and accesses enabled AI-assisted SPL tools through the
-      MCP app installed on a Splunk search head, using an encrypted token and Splunk RBAC.
+    name: Splunk MCP Server 官方
+    description: >-
+      用于检索 Splunk 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: Splunk
     url: https://splunkbase.splunk.com/app/7931
     category: observability
@@ -4314,9 +4300,9 @@ items:
         key: SPLUNK_MCP_TOKEN
         placeholder: your_encrypted_mcp_token
   - id: sqlite
-    name: SQLite
-    description: Provides database interaction and business intelligence capabilities through SQLite, enabling SQL queries,
-      data analysis, and automated business insight generation.
+    name: SQLite 集成
+    description: >-
+      用于查询 SQLite 集成 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite
     category: data
@@ -4344,9 +4330,9 @@ items:
         key: DB_PATH
         placeholder: /path/to/database.db
   - id: stripe
-    name: Stripe
-    description: Enables AI agents to interact with Stripe APIs, supporting operations like customer management, payment
-      processing, product creation, and invoice handling through function calling.
+    name: Stripe 集成
+    description: >-
+      用于管理 Stripe 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: stripe
     url: https://github.com/stripe/agent-toolkit
     category: business
@@ -4379,9 +4365,9 @@ items:
         key: STRIPE_SECRET_KEY
         placeholder: sk_test_your_stripe_secret_key
   - id: supabase
-    name: Supabase
-    description: The official Supabase MCP server connects your AI tools to Supabase to perform tasks like launching
-      databases, managing tables, fetching config, and querying data on your behalf.
+    name: Supabase 集成
+    description: >-
+      用于连接 Supabase，让代理能够访问相关服务、数据源或工具能力，并按配置的认证方式工作。
     author: supabase
     url: https://supabase.com/docs/guides/mcp
     category: data
@@ -4403,9 +4389,9 @@ items:
         key: SUPABASE_ACCESS_TOKEN
         placeholder: sbp_your_supabase_pat
   - id: tableau-mcp
-    name: Tableau MCP (Official)
-    description: Queries Tableau data and explores workbooks, views, projects, and published data sources using a Personal
-      Access Token limited by the token owner's site permissions.
+    name: Tableau MCP 官方
+    description: >-
+      用于查询 Tableau 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
     author: Tableau
     url: https://github.com/tableau/tableau-mcp
     category: data
@@ -4446,9 +4432,9 @@ items:
         key: TABLEAU_PAT_VALUE
         placeholder: your_pat_secret
   - id: tavily
-    name: Tavily
-    description: Enables real-time web search and data extraction capabilities through Tavily's API, providing AI assistants
-      with filtered search results and intelligent content extraction from web pages.
+    name: Tavily 集成
+    description: >-
+      用于检索 Tavily 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: tavily-ai
     url: https://github.com/tavily-ai/tavily-mcp
     category: search
@@ -4491,9 +4477,9 @@ items:
         key: TAVILY_API_KEY
         placeholder: your-tavily-apikey-here
   - id: time
-    name: Time
-    description: Provides time and timezone conversion capabilities using IANA timezone names, with automatic system
-      timezone detection and support for current time queries.
+    name: 时间
+    description: >-
+      为代理接入 时间，提供效率工具场景下常用的查询、操作或自动化能力。
     author: modelcontextprotocol
     url: https://github.com/modelcontextprotocol/servers/tree/main/src/time
     category: productivity
@@ -4549,9 +4535,9 @@ items:
             key: LOCAL_TIMEZONE
             placeholder: America/New_York
   - id: unity-catalog-functions
-    name: Databricks Unity Catalog Functions MCP
-    description: Exposes governed Unity Catalog functions in a Databricks catalog and schema as callable tools through the
-      workspace-managed MCP endpoint, using a PAT and the caller's EXECUTE permissions.
+    name: Databricks Unity 目录 Functions MCP
+    description: >-
+      用于运行 Databricks 相关命令或工具，帮助代理完成检查、生成、执行和验证流程。
     author: Databricks
     url: https://docs.databricks.com/aws/en/generative-ai/mcp/managed-mcp
     category: data
@@ -4584,9 +4570,9 @@ items:
         key: DATABRICKS_TOKEN
         placeholder: your_databricks_pat
   - id: vault-mcp
-    name: HashiCorp Vault MCP Server
-    description: Reads Vault metadata and approved secret paths using a dedicated token whose Vault policies deny creates,
-      updates, deletes, and administrative operations.
+    name: Hashi Corp Vault MCP Server 集成
+    description: >-
+      为代理接入 Vault，提供开发场景下常用的查询、操作或自动化能力。
     author: HashiCorp
     url: https://github.com/hashicorp/vault-mcp-server
     category: development
@@ -4632,9 +4618,9 @@ items:
         placeholder: your_namespace
         optional: true
   - id: vault-radar-mcp
-    name: HCP Vault Radar MCP Server
-    description: Retrieves Vault Radar data sources, resources, detected-secret events, and secret types from an HCP project
-      using a service principal scoped to that project.
+    name: HCP Vault Radar MCP Server 集成
+    description: >-
+      用于检索 Vault 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: HashiCorp
     url: https://developer.hashicorp.com/hcp/docs/vault-radar/mcp-server/deploy
     category: observability
@@ -4679,9 +4665,9 @@ items:
         key: HCP_CLIENT_SECRET
         placeholder: your_hcp_client_secret
   - id: verodat
-    name: Verodat
-    description: Enables AI systems to interact with Verodat's data management platform, providing capabilities for dataset
-      creation, querying, and AI-powered analysis across workspaces and accounts.
+    name: Verodat 集成
+    description: >-
+      用于管理 Verodat 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
     author: Verodat
     url: https://github.com/Verodat/verodat-mcp-server
     category: data
@@ -4738,9 +4724,9 @@ items:
         placeholder: /path/to/verodat-mcp-server
         optional: true
   - id: watsonx
-    name: WatsonX Flows
-    description: Enables integration with watsonx.ai Flows Engine, providing tools for Google Books and Wikipedia searches
-      through a TypeScript-based MCP server implementation.
+    name: Watson X Flows 集成
+    description: >-
+      用于检索 Google、watsonx 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
     author: IBM
     url: https://github.com/IBM/wxflows/tree/main/examples/mcp/javascript
     category: search
@@ -4780,9 +4766,9 @@ items:
         placeholder: /path/to/wxflows/examples/mcp/javascript
         optional: true
   - id: youtube
-    name: YouTube Subtitles
-    description: Downloads and extracts YouTube video subtitles using yt-dlp, enabling AI assistants to analyze and
-      summarize video content through subtitle text.
+    name: YouTube 字幕
+    description: >-
+      用于下载YouTube 字幕相关内容，并支持按场景选择格式、质量或输出方式。
     author: anaisbetts
     url: https://github.com/anaisbetts/mcp-youtube
     category: web-automation
