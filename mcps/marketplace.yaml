@@ -1834,33 +1834,34 @@ items:
     name: Git Lab 集成
     description: >-
       用于管理 GitLab 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    author: modelcontextprotocol
-    url: https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab
+    author: zereight
+    url: https://github.com/zereight/gitlab-mcp
     category: development
     tags:
       - development
     prerequisites:
       - GitLab account
     content:
-      - name: UVX
+      - name: NPX
         prerequisites:
-          - Python and uv
+          - Node.js
         content: |
           {
-            "command": "uvx",
-            "args": ["mcp-server-gitlab"],
+            "command": "npx",
+            "args": ["-y", "@zereight/mcp-gitlab@2.1.29"],
             "env": {
               "GITLAB_PERSONAL_ACCESS_TOKEN": "{{GITLAB_PERSONAL_ACCESS_TOKEN}}",
               "GITLAB_API_URL": "{{GITLAB_API_URL}}"
             }
           }
-      - name: Python/Pip
+      - name: Global NPM
         prerequisites:
-          - Python
+          - Node.js
+          - npm install -g @zereight/mcp-gitlab
         content: |
           {
-            "command": "python",
-            "args": ["-m", "mcp_server_gitlab"],
+            "command": "zereight-mcp-gitlab",
+            "args": [],
             "env": {
               "GITLAB_PERSONAL_ACCESS_TOKEN": "{{GITLAB_PERSONAL_ACCESS_TOKEN}}",
               "GITLAB_API_URL": "{{GITLAB_API_URL}}"
@@ -1872,7 +1873,16 @@ items:
         content: |
           {
             "command": "docker",
-            "args": ["run", "-i", "--rm", "mcp/gitlab"],
+            "args": [
+              "run",
+              "-i",
+              "--rm",
+              "-e",
+              "GITLAB_PERSONAL_ACCESS_TOKEN",
+              "-e",
+              "GITLAB_API_URL",
+              "zereight050/gitlab-mcp"
+            ],
             "env": {
               "GITLAB_PERSONAL_ACCESS_TOKEN": "{{GITLAB_PERSONAL_ACCESS_TOKEN}}",
               "GITLAB_API_URL": "{{GITLAB_API_URL}}"
