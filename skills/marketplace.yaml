@@ -1,28 +1,4 @@
 items:
-  - id: competitive-ads-extractor
-    name: 竞品广告提取器
-    description: >-
-      从 Facebook、LinkedIn 等广告库提取并分析竞品广告，帮助判断哪些卖点、痛点和创意形式正在奏效。
-    category: business
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/competitive-ads-extractor
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/competitive-ads-extractor/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/competitive-ads-extractor.tar.gz
-  - id: content-research-writer
-    name: 内容研究写作助手
-    description: >-
-      辅助完成高质量内容写作：调研资料、补充引用、优化开头、迭代大纲，并对段落给出实时反馈。
-    category: business
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/content-research-writer
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/content-research-writer/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/content-research-writer.tar.gz
-  - id: domain-name-brainstormer
-    name: 域名创意助手
-    description: >-
-      为项目生成有创意的域名方案，并检查 .com、.io、.dev、.ai 等常见后缀的可用性。
-    category: business
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/domain-name-brainstormer
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/domain-name-brainstormer/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/domain-name-brainstormer.tar.gz
   - id: internal-comms
     name: 内部沟通写作助手
     description: >-
@@ -31,14 +7,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/internal-comms
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/internal-comms/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/internal-comms.tar.gz
-  - id: lead-research-assistant
-    name: 销售线索研究助手
-    description: >-
-      结合业务背景寻找高质量潜在客户，并给出目标公司分析和可执行的触达策略。
-    category: business
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/lead-research-assistant
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/lead-research-assistant/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/lead-research-assistant.tar.gz
   - id: meeting-insights-analyzer
     name: 会议洞察分析器
     description: >-
@@ -71,14 +39,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/theme-factory
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/theme-factory/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/theme-factory.tar.gz
-  - id: youtube-downloader
-    name: YouTube 下载器
-    description: >-
-      按指定清晰度和格式下载 YouTube 视频，也支持仅提取音频并保存为 MP3。
-    category: creative-media
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/youtube-downloader
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/youtube-downloader/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/youtube-downloader.tar.gz
   - id: adbc
     name: adbc 技能
     description: >-
@@ -239,14 +199,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/data-quality-frameworks-sickn33
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/data-quality-frameworks-sickn33/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/data-quality-frameworks-sickn33.tar.gz
-  - id: datarobot-data-preparation
-    name: datarobot 数据 preparation
-    description: >-
-      提供datarobot 数据 preparation相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/datarobot-data-preparation
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/datarobot-data-preparation/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/datarobot-data-preparation.tar.gz
   - id: datarobot-feature-engineering
     name: datarobot feature engineering 技能
     description: >-
@@ -718,30 +670,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/changelog-generator
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/changelog-generator/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/changelog-generator.tar.gz
-  - id: cheerio-parsing
-    name: cheerio 解析
-    description: >-
-      提供cheerio 解析相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/cheerio-parsing
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/cheerio-parsing/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/cheerio-parsing.tar.gz
-  - id: create-pull-request
-    name: 创建 Pull Request
-    description: >-
-      用于管理 GitHub 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/create-pull-request
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/create-pull-request/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/create-pull-request.tar.gz
-  - id: deploy-to-vercel
-    name: 部署 to vercel
-    description: >-
-      面向开发场景的技能，帮助代理处理部署 to vercel相关任务，并沉淀可复用的工作流和实践经验。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/deploy-to-vercel
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/deploy-to-vercel/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/deploy-to-vercel.tar.gz
   - id: fastapi-itechmeat
     name: FastAPI itechmeat 技能
     description: >-
@@ -796,14 +724,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/jupyter-notebook
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/jupyter-notebook/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/jupyter-notebook.tar.gz
-  - id: langsmith-fetch
-    name: LangSmith fetch 技能
-    description: >-
-      用于分析和诊断LangSmith fetch 技能相关问题，帮助定位异常、理解上下文并给出后续处理建议。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/langsmith-fetch
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/langsmith-fetch/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/langsmith-fetch.tar.gz
   - id: okta-identity-integration-patterns
     name: Okta 身份 集成 模式
     description: >-
