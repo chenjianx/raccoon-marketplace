@@ -31,10 +31,7 @@ diff -rN -U0 --ignore-trailing-space a/etl-integration-nifi/SKILL.md b/etl-integ
 -  author: christopher huffman
 @@ -47 +45 @@
 -   - **Cross-tool comparison** -- Route to parent `../SKILL.md` for NiFi vs ADF, Fivetran, Glue, etc.
-+   - **Cross-tool comparison** -- Use the comparison in this file, then load a relevant marketplace skill such as [`adf-master`](../adf-master/SKILL.md) or [`ingesting-into-data-lake`](../ingesting-into-data-lake/SKILL.md) for product-specific details.
 @@ -211,2 +209,3 @@
 -- `../SKILL.md` -- Parent integration router for NiFi vs ADF, Fivetran, Glue comparisons
 -- `../../SKILL.md` -- Parent ETL domain agent for cross-tool comparisons and paradigm routing
 +- [`nifi-flow-layout`](../nifi-flow-layout/SKILL.md) -- layout and organization of NiFi flows
-+- [`adf-master`](../adf-master/SKILL.md) -- Azure Data Factory implementation guidance
-+- [`ingesting-into-data-lake`](../ingesting-into-data-lake/SKILL.md) -- AWS Glue implementation guidance

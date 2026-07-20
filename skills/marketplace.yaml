@@ -63,14 +63,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/image-enhancer
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/image-enhancer/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/image-enhancer.tar.gz
-  - id: slack-gif-creator
-    name: Slack GIF 创建器
-    description: >-
-      创建适合 Slack 使用的动画 GIF，内置尺寸校验和可组合动画组件。
-    category: creative-media
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/slack-gif-creator
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/slack-gif-creator/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/slack-gif-creator.tar.gz
   - id: theme-factory
     name: 主题工厂
     description: >-
@@ -95,14 +87,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/adbc
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/adbc/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/adbc.tar.gz
-  - id: adf-master
-    name: adf master 技能
-    description: >-
-      用于管理 Azure、GitHub 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/adf-master
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/adf-master/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/adf-master.tar.gz
   - id: aidp-object-storage
     name: aidp 对象 存储
     description: >-
@@ -111,14 +95,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/aidp-object-storage
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/aidp-object-storage/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/aidp-object-storage.tar.gz
-  - id: airbyte-agent
-    name: Airbyte 代理
-    description: >-
-      面向数据场景的技能，帮助代理处理Airbyte 代理相关任务，并沉淀可复用的工作流和实践经验。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/airbyte-agent
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/airbyte-agent/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/airbyte-agent.tar.gz
   - id: airflow
     name: Airflow 技能
     description: >-
@@ -151,80 +127,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/authoring-dags
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/authoring-dags/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/authoring-dags.tar.gz
-  - id: azure-data-factory
-    name: Azure 数据 factory
-    description: >-
-      提供Azure 数据 factory相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-data-factory
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-data-factory/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-data-factory.tar.gz
-  - id: azure-data-share
-    name: Azure 数据 分享
-    description: >-
-      提供Azure 数据 分享相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-data-share
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-data-share/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-data-share.tar.gz
-  - id: azure-databricks
-    name: Azure Databricks 技能
-    description: >-
-      提供Azure Databricks 技能相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-databricks
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-databricks/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-databricks.tar.gz
-  - id: azure-event-hubs
-    name: Azure 事件 中心
-    description: >-
-      提供Azure 事件 中心相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-event-hubs
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-event-hubs/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-event-hubs.tar.gz
-  - id: azure-eventhub-py
-    name: Azure eventhub py 技能
-    description: >-
-      面向数据场景的技能，帮助代理处理Azure eventhub py 技能相关任务，并沉淀可复用的工作流和实践经验。
-
-      Triggers: "event hubs", "EventHubProducerClient", "EventHubConsumerClient", "streaming", "partitions".
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-eventhub-py
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-eventhub-py/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-eventhub-py.tar.gz
-  - id: azure-machine-learning
-    name: Azure machine learning 技能
-    description: >-
-      提供Azure machine learning 技能相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-machine-learning
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-machine-learning/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-machine-learning.tar.gz
-  - id: azure-storage
-    name: Azure 存储
-    description: >-
-      用于查询 Azure 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-storage
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-storage/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-storage.tar.gz
-  - id: azure-synapse-analytics
-    name: Azure synapse 分析
-    description: >-
-      提供Azure synapse 分析相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-synapse-analytics
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-synapse-analytics/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-synapse-analytics.tar.gz
-  - id: azureml-scaffolding
-    name: azureml 脚手架
-    description: >-
-      提供azureml 脚手架相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azureml-scaffolding
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azureml-scaffolding/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azureml-scaffolding.tar.gz
   - id: beam-concepts
     name: beam 概念
     description: >-
@@ -233,30 +135,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/beam-concepts
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/beam-concepts/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/beam-concepts.tar.gz
-  - id: bigquery-ai-ml
-    name: BigQuery ai ml 技能
-    description: >-
-      用于查询 BigQuery 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/bigquery-ai-ml
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/bigquery-ai-ml/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/bigquery-ai-ml.tar.gz
-  - id: bigquery-basics
-    name: BigQuery basics 技能
-    description: >-
-      用于查询 BigQuery 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/bigquery-basics
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/bigquery-basics/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/bigquery-basics.tar.gz
-  - id: build-connector
-    name: 构建 连接器
-    description: >-
-      用于创建或生成构建 连接器相关内容，适合把需求快速转成可用的配置、文档、代码或素材。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/build-connector
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/build-connector/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/build-connector.tar.gz
   - id: cassandra
     name: Cassandra 技能
     description: >-
@@ -293,30 +171,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/collibra-chip
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/collibra-chip/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/collibra-chip.tar.gz
-  - id: connecting-to-data-source
-    name: connecting to 数据 source
-    description: >-
-      用于连接 AWS、Oracle、Snowflake、MongoDB，让代理能够访问相关服务、数据源或工具能力，并按配置的认证方式工作。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/connecting-to-data-source
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/connecting-to-data-source/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/connecting-to-data-source.tar.gz
-  - id: cortex-code
-    name: Cortex 代码
-    description: >-
-      用于查询 Snowflake、Cortex 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/cortex-code
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/cortex-code/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/cortex-code.tar.gz
-  - id: creating-data-lake-table
-    name: creating 数据 湖 表
-    description: >-
-      用于管理 creating 数据 湖 表 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/creating-data-lake-table
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/creating-data-lake-table/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/creating-data-lake-table.tar.gz
   - id: csv-query
     name: csv 查询
     description: >-
@@ -385,84 +239,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/data-quality-frameworks-sickn33
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/data-quality-frameworks-sickn33/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/data-quality-frameworks-sickn33.tar.gz
-  - id: database-redshift
-    name: 数据库 redshift
-    description: >-
-      面向数据场景的技能，帮助代理处理数据库 redshift相关任务，并沉淀可复用的工作流和实践经验。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/database-redshift
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/database-redshift/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/database-redshift.tar.gz
-  - id: databricks-core
-    name: Databricks core 技能
-    description: >-
-      面向数据场景的技能，帮助代理处理Databricks core 技能相关任务，并沉淀可复用的工作流和实践经验。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/databricks-core
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/databricks-core/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/databricks-core.tar.gz
-  - id: databricks-dbsql
-    name: Databricks dbsql 技能
-    description: >-
-      提供Databricks dbsql 技能相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-      mentions: "DBSQL", "Databricks SQL", "SQL warehouse", "SQL scripting", "stored procedure", "CALL procedure",
-      "materialized view", "CREATE MATERIALIZED VIEW", "pipe syntax", "|>", "geospatial", "H3", "ST_", "spatial SQL",
-      "collation", "COLLATE", "ai_query", "ai_classify", "ai_extract", "ai_gen", "AI function", "http_request",
-      "remote_query", "read_files", "Lakehouse Federation", "recursive CTE", "WITH RECURSIVE", "multi-statement
-      transaction", "temp table", "temporary view", "pipe operator". SHOULD also invoke when the user asks about SQL
-      best practices, data modeling patterns, or advanced SQL features on Databricks.
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/databricks-dbsql
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/databricks-dbsql/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/databricks-dbsql.tar.gz
-  - id: databricks-jobs
-    name: Databricks jobs 技能
-    description: >-
-      用于查询 Databricks、dbt 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/databricks-jobs
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/databricks-jobs/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/databricks-jobs.tar.gz
-  - id: databricks-model-serving
-    name: Databricks 模型 serving
-    description: >-
-      面向数据场景的技能，帮助代理处理Databricks 模型 serving相关任务，并沉淀可复用的工作流和实践经验。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/databricks-model-serving
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/databricks-model-serving/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/databricks-model-serving.tar.gz
-  - id: databricks-pipelines
-    name: Databricks pipelines 技能
-    description: >-
-      用于查询 Databricks、Delta 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/databricks-pipelines
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/databricks-pipelines/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/databricks-pipelines.tar.gz
-  - id: databricks-spark-structured-streaming
-    name: Databricks spark structured 流式
-    description: >-
-      面向数据场景的技能，帮助代理处理Databricks spark structured 流式相关任务，并沉淀可复用的工作流和实践经验。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/databricks-spark-structured-streaming
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/databricks-spark-structured-streaming/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/databricks-spark-structured-streaming.tar.gz
-  - id: databricks-unity-catalog
-    name: Databricks unity 目录
-    description: >-
-      面向数据场景的技能，帮助代理处理Databricks unity 目录相关任务，并沉淀可复用的工作流和实践经验。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/databricks-unity-catalog
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/databricks-unity-catalog/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/databricks-unity-catalog.tar.gz
-  - id: dataplex-and-bigquery-governance
-    name: dataplex and BigQuery 治理
-    description: >-
-      提供dataplex and BigQuery 治理相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/dataplex-and-bigquery-governance
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/dataplex-and-bigquery-governance/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/dataplex-and-bigquery-governance.tar.gz
   - id: datarobot-data-preparation
     name: datarobot 数据 preparation
     description: >-
@@ -487,14 +263,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/dataset-evaluation
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/dataset-evaluation/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/dataset-evaluation.tar.gz
-  - id: dataset-transformation
-    name: dataset transformation 技能
-    description: >-
-      用于创建或生成dataset transformation 技能相关内容，适合把需求快速转成可用的配置、文档、代码或素材。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/dataset-transformation
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/dataset-transformation/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/dataset-transformation.tar.gz
   - id: db2-rhel
     name: db2 rhel 技能
     description: >-
@@ -503,22 +271,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/db2-rhel
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/db2-rhel/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/db2-rhel.tar.gz
-  - id: dbt-analytics-engineering
-    name: dbt 分析 engineering
-    description: >-
-      用于查询 dbt 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/dbt-analytics-engineering
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/dbt-analytics-engineering/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/dbt-analytics-engineering.tar.gz
-  - id: dbt-testing
-    name: dbt 测试
-    description: >-
-      用于查询 dbt 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/dbt-testing
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/dbt-testing/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/dbt-testing.tar.gz
   - id: delta-sharing
     name: Delta sharing 技能
     description: >-
@@ -559,14 +311,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/etl-integration-nifi
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/etl-integration-nifi/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/etl-integration-nifi.tar.gz
-  - id: exploring-data-catalog
-    name: exploring 数据 目录
-    description: >-
-      用于检索 AWS 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/exploring-data-catalog
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/exploring-data-catalog/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/exploring-data-catalog.tar.gz
   - id: flink
     name: flink 技能
     description: >-
@@ -583,27 +327,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/flink-best-practices
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/flink-best-practices/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/flink-best-practices.tar.gz
-  - id: gcs-lifecycle-policy
-    name: gcs 生命周期 策略
-    description: >-
-      用于管理 GCP 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-
-      Triggers on: gcs lifecycle policy, gcs lifecycle policy
-
-      Part of the GCP Skills skill category. Use when working with gcs lifecycle policy functionality. Trigger with
-      phrases like "gcs lifecycle policy", "gcs policy", "gcs".
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/gcs-lifecycle-policy
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/gcs-lifecycle-policy/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/gcs-lifecycle-policy.tar.gz
-  - id: glue-diagnostics
-    name: glue 诊断
-    description: >-
-      用于分析和诊断glue 诊断相关问题，帮助定位异常、理解上下文并给出后续处理建议。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/glue-diagnostics
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/glue-diagnostics/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/glue-diagnostics.tar.gz
   - id: hadoop
     name: hadoop 技能
     description: >-
@@ -620,14 +343,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/hbase
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/hbase/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/hbase.tar.gz
-  - id: ingesting-into-data-lake
-    name: ingesting into 数据 湖
-    description: >-
-      用于查询 AWS、Oracle、Snowflake、MongoDB 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/ingesting-into-data-lake
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/ingesting-into-data-lake/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/ingesting-into-data-lake.tar.gz
   - id: io-connectors
     name: io connectors 技能
     description: >-
@@ -660,14 +375,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/kafka-streams-programming
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/kafka-streams-programming/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/kafka-streams-programming.tar.gz
-  - id: knowledge-catalog-discovery
-    name: 知识 目录 discovery
-    description: >-
-      用于检索 知识 目录 discovery 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/knowledge-catalog-discovery
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/knowledge-catalog-discovery/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/knowledge-catalog-discovery.tar.gz
   - id: lookml-model
     name: lookml 模型
     description: >-
@@ -724,14 +431,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/mysql-patterns
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/mysql-patterns/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/mysql-patterns.tar.gz
-  - id: neon-postgres
-    name: Neon Postgres 技能
-    description: >-
-      提供Neon Postgres 技能相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/neon-postgres
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/neon-postgres/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/neon-postgres.tar.gz
   - id: nifi-flow-layout
     name: NiFi flow 布局
     description: >-
@@ -776,22 +475,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/oracledb
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/oracledb/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/oracledb.tar.gz
-  - id: powerbi-documentation
-    name: Power BI 文档
-    description: >-
-      用于创建或生成Power BI 文档相关内容，适合把需求快速转成可用的配置、文档、代码或素材。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/powerbi-documentation
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/powerbi-documentation/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/powerbi-documentation.tar.gz
-  - id: powerbi-mcp
-    name: Power BI mcp 技能
-    description: >-
-      面向数据场景的技能，帮助代理处理Power BI mcp 技能相关任务，并沉淀可复用的工作流和实践经验。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/powerbi-mcp
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/powerbi-mcp/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/powerbi-mcp.tar.gz
   - id: prefect
     name: Prefect 技能
     description: >-
@@ -804,22 +487,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/prefect
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/prefect/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/prefect.tar.gz
-  - id: purview-data-catalog
-    name: purview 数据 目录
-    description: >-
-      提供purview 数据 目录相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/purview-data-catalog
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/purview-data-catalog/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/purview-data-catalog.tar.gz
-  - id: purview-data-map
-    name: purview 数据 map
-    description: >-
-      提供purview 数据 map相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/purview-data-map
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/purview-data-map/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/purview-data-map.tar.gz
   - id: pytorch-patterns
     name: PyTorch 模式
     description: >-
@@ -828,14 +495,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/pytorch-patterns
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/pytorch-patterns/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/pytorch-patterns.tar.gz
-  - id: qlik-load-script
-    name: qlik load script 技能
-    description: >-
-      用于分析和诊断qlik load script 技能相关问题，帮助定位异常、理解上下文并给出后续处理建议。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/qlik-load-script
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/qlik-load-script/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/qlik-load-script.tar.gz
   - id: query-tableau-data
     name: 查询 Tableau 数据
     description: >-
@@ -852,14 +511,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/redis-core
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/redis-core/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/redis-core.tar.gz
-  - id: redshift
-    name: redshift 技能
-    description: >-
-      面向数据场景的技能，帮助代理处理redshift 技能相关任务，并沉淀可复用的工作流和实践经验。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/redshift
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/redshift/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/redshift.tar.gz
   - id: scikit-learn
     name: scikit learn 技能
     description: >-
@@ -884,22 +535,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/senior-data-engineer
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/senior-data-engineer/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/senior-data-engineer.tar.gz
-  - id: snowflake-expert
-    name: Snowflake expert 技能
-    description: >-
-      用于查询 Snowflake 中的数据、元数据或运行状态，适合做数据检查、分析和只读诊断。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/snowflake-expert
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/snowflake-expert/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/snowflake-expert.tar.gz
-  - id: snowpipe-bcdr
-    name: snowpipe bcdr 技能
-    description: >-
-      面向数据场景的技能，帮助代理处理snowpipe bcdr 技能相关任务，并沉淀可复用的工作流和实践经验。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/snowpipe-bcdr
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/snowpipe-bcdr/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/snowpipe-bcdr.tar.gz
   - id: soda-cli
     name: soda cli 技能
     description: >-
@@ -924,22 +559,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/sql-server-table-reconciliation
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/sql-server-table-reconciliation/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/sql-server-table-reconciliation.tar.gz
-  - id: supabase-postgres-best-practices
-    name: Supabase Postgres 最佳 实践
-    description: >-
-      提供Supabase Postgres 最佳 实践相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/supabase-postgres-best-practices
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/supabase-postgres-best-practices/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/supabase-postgres-best-practices.tar.gz
-  - id: tableau-dashboard-creator
-    name: Tableau dashboard 创建器
-    description: >-
-      提供Tableau dashboard 创建器相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: data
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/tableau-dashboard-creator
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/tableau-dashboard-creator/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/tableau-dashboard-creator.tar.gz
   - id: tensorflow-data-pipelines
     name: tensorflow 数据 pipelines
     description: >-
@@ -1083,54 +702,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/artifacts-builder
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/artifacts-builder/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/artifacts-builder.tar.gz
-  - id: aws-cognito-admin
-    name: AWS cognito 管理
-    description: >-
-      面向开发场景的技能，帮助代理处理AWS cognito 管理相关任务，并沉淀可复用的工作流和实践经验。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/aws-cognito-admin
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/aws-cognito-admin/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/aws-cognito-admin.tar.gz
-  - id: aws-messaging-and-streaming
-    name: AWS 消息 and 流式
-    description: >-
-      提供AWS 消息 and 流式相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/aws-messaging-and-streaming
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/aws-messaging-and-streaming/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/aws-messaging-and-streaming.tar.gz
-  - id: aws-sdk-python-usage
-    name: AWS sdk python 用法
-    description: >-
-      面向开发场景的技能，帮助代理处理AWS sdk python 用法相关任务，并沉淀可复用的工作流和实践经验。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/aws-sdk-python-usage
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/aws-sdk-python-usage/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/aws-sdk-python-usage.tar.gz
-  - id: azure-compliance
-    name: Azure compliance 技能
-    description: >-
-      提供Azure compliance 技能相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-compliance
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-compliance/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-compliance.tar.gz
-  - id: azure-key-vault
-    name: Azure 密钥 Vault
-    description: >-
-      提供Azure 密钥 Vault相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-key-vault
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-key-vault/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-key-vault.tar.gz
-  - id: azure-rbac
-    name: Azure rbac 技能
-    description: >-
-      提供Azure rbac 技能相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/azure-rbac
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/azure-rbac/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/azure-rbac.tar.gz
   - id: bootstrapping-agent
     name: bootstrapping 代理
     description: >-
@@ -1155,14 +726,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/cheerio-parsing
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/cheerio-parsing/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/cheerio-parsing.tar.gz
-  - id: cognito
-    name: cognito 技能
-    description: >-
-      面向开发场景的技能，帮助代理处理cognito 技能相关任务，并沉淀可复用的工作流和实践经验。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/cognito
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/cognito/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/cognito.tar.gz
   - id: create-pull-request
     name: 创建 Pull Request
     description: >-
@@ -1171,30 +734,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/create-pull-request
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/create-pull-request/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/create-pull-request.tar.gz
-  - id: creating-secrets-using-best-practices
-    name: creating 密钥 using 最佳 实践
-    description: >-
-      提供creating 密钥 using 最佳 实践相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/creating-secrets-using-best-practices
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/creating-secrets-using-best-practices/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/creating-secrets-using-best-practices.tar.gz
-  - id: dbt
-    name: dbt 技能
-    description: >-
-      用于分析和诊断dbt 技能相关问题，帮助定位异常、理解上下文并给出后续处理建议。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/dbt
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/dbt/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/dbt.tar.gz
-  - id: dbt-migration
-    name: dbt migration 技能
-    description: >-
-      面向开发场景的技能，帮助代理处理dbt migration 技能相关任务，并沉淀可复用的工作流和实践经验。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/dbt-migration
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/dbt-migration/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/dbt-migration.tar.gz
   - id: deploy-to-vercel
     name: 部署 to vercel
     description: >-
@@ -1203,22 +742,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/deploy-to-vercel
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/deploy-to-vercel/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/deploy-to-vercel.tar.gz
-  - id: entra-agent-id
-    name: entra 代理 id
-    description: >-
-      面向开发场景的技能，帮助代理处理entra 代理 id相关任务，并沉淀可复用的工作流和实践经验。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/entra-agent-id
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/entra-agent-id/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/entra-agent-id.tar.gz
-  - id: entra-app-registration
-    name: entra 应用 注册
-    description: >-
-      提供entra 应用 注册相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/entra-app-registration
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/entra-app-registration/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/entra-app-registration.tar.gz
   - id: fastapi-itechmeat
     name: FastAPI itechmeat 技能
     description: >-
@@ -1235,14 +758,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/fastapi-martinholovsky
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/fastapi-martinholovsky/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/fastapi-martinholovsky.tar.gz
-  - id: figma-implement-design
-    name: Figma implement 设计
-    description: >-
-      用于创建或生成Figma implement 设计相关内容，适合把需求快速转成可用的配置、文档、代码或素材。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/figma-implement-design
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/figma-implement-design/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/figma-implement-design.tar.gz
   - id: frontend-design
     name: 前端 设计
     description: >-
@@ -1251,46 +766,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/frontend-design
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/frontend-design/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/frontend-design.tar.gz
-  - id: gcloud
-    name: gcloud 技能
-    description: >-
-      用于分析和诊断gcloud 技能相关问题，帮助定位异常、理解上下文并给出后续处理建议。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/gcloud
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/gcloud/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/gcloud.tar.gz
-  - id: gcp-event-driven-architecture-review
-    name: GCP 事件 驱动 架构 评审
-    description: >-
-      面向开发场景的技能，帮助代理处理GCP 事件 驱动 架构 评审相关任务，并沉淀可复用的工作流和实践经验。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/gcp-event-driven-architecture-review
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/gcp-event-driven-architecture-review/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/gcp-event-driven-architecture-review.tar.gz
-  - id: gcp-iam
-    name: GCP iam 技能
-    description: >-
-      用于管理 Google 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/gcp-iam
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/gcp-iam/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/gcp-iam.tar.gz
-  - id: gcp-secret-manager
-    name: GCP secret manager 技能
-    description: >-
-      面向开发场景的技能，帮助代理处理GCP secret manager 技能相关任务，并沉淀可复用的工作流和实践经验。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/gcp-secret-manager
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/gcp-secret-manager/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/gcp-secret-manager.tar.gz
-  - id: gemini-api
-    name: Gemini api 技能
-    description: >-
-      提供Gemini api 技能相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/gemini-api
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/gemini-api/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/gemini-api.tar.gz
   - id: graphql
     name: graphql 技能
     description: >-
@@ -1329,14 +804,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/langsmith-fetch
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/langsmith-fetch/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/langsmith-fetch.tar.gz
-  - id: mcp-builder
-    name: mcp 构建器
-    description: >-
-      面向开发场景的技能，帮助代理处理mcp 构建器相关任务，并沉淀可复用的工作流和实践经验。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/mcp-builder
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/mcp-builder/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/mcp-builder.tar.gz
   - id: okta-identity-integration-patterns
     name: Okta 身份 集成 模式
     description: >-
@@ -1353,22 +820,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/ponytail
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/ponytail/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/ponytail.tar.gz
-  - id: secrets-vault-manager
-    name: 密钥 Vault manager
-    description: >-
-      用于管理 AWS、Azure、GCP、Vault 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/secrets-vault-manager
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/secrets-vault-manager/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/secrets-vault-manager.tar.gz
-  - id: securing-s3-buckets
-    name: securing s3 buckets 技能
-    description: >-
-      提供securing s3 buckets 技能相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/securing-s3-buckets
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/securing-s3-buckets/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/securing-s3-buckets.tar.gz
   - id: skill-creator
     name: 技能 创建器
     description: >-
@@ -1377,14 +828,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/skill-creator
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/skill-creator/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/skill-creator.tar.gz
-  - id: skill-share
-    name: 技能 分享
-    description: >-
-      用于创建或生成技能 分享相关内容，适合把需求快速转成可用的配置、文档、代码或素材。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/skill-share
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/skill-share/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/skill-share.tar.gz
   - id: validating-json-data
     name: 校验 json 数据
     description: >-
@@ -1393,14 +836,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/validating-json-data
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/validating-json-data/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/validating-json-data.tar.gz
-  - id: vault-api
-    name: Vault api 技能
-    description: >-
-      用于管理 Vault 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/vault-api
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/vault-api/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/vault-api.tar.gz
   - id: vercel-composition-patterns
     name: vercel 组合 模式
     description: >-
@@ -1417,14 +852,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/vercel-react-best-practices
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/vercel-react-best-practices/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/vercel-react-best-practices.tar.gz
-  - id: web-design-guidelines
-    name: Web 设计 guidelines
-    description: >-
-      提供Web 设计 guidelines相关的实践指导，覆盖排障、架构取舍、配置、部署和常见最佳实践。
-    category: development
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/web-design-guidelines
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/web-design-guidelines/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/web-design-guidelines.tar.gz
   - id: webapp-testing
     name: webapp 测试
     description: >-
@@ -1473,14 +900,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/elasticsearch-esql
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/elasticsearch-esql/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/elasticsearch-esql.tar.gz
-  - id: newrelic-cli-skills
-    name: newrelic cli skills 技能
-    description: >-
-      用于管理 newrelic cli skills 技能 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    category: observability
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/newrelic-cli-skills
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/newrelic-cli-skills/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/newrelic-cli-skills.tar.gz
   - id: prometheus-addxai
     name: Prometheus addxai 技能
     description: >-
@@ -1497,22 +916,6 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/redis-observability
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/redis-observability/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/redis-observability.tar.gz
-  - id: splunk-ingest-processor-setup
-    name: Splunk 摄取 processor 配置
-    description: >-
-      用于管理 Splunk 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    category: observability
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/splunk-ingest-processor-setup
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/splunk-ingest-processor-setup/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/splunk-ingest-processor-setup.tar.gz
-  - id: splunk-spl2-pipeline-kit
-    name: Splunk spl2 管道 kit
-    description: >-
-      用于管理 Splunk 相关资源和工作流，包括查看配置、检查状态以及执行常见运维操作。
-    category: observability
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/splunk-spl2-pipeline-kit
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/splunk-spl2-pipeline-kit/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/splunk-spl2-pipeline-kit.tar.gz
   - id: troubleshoot-cassandra
     name: troubleshoot Cassandra 技能
     description: >-
@@ -1521,35 +924,3 @@ items:
     githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/troubleshoot-cassandra
     rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/troubleshoot-cassandra/SKILL.md
     content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/troubleshoot-cassandra.tar.gz
-  - id: integrate-anything
-    name: integrate anything 技能
-    description: >-
-      用于运行 Membrane 相关命令或工具，帮助代理完成检查、生成、执行和验证流程。
-    category: productivity
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/integrate-anything
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/integrate-anything/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/integrate-anything.tar.gz
-  - id: microsoft-code-reference
-    name: Microsoft 代码 reference
-    description: >-
-      面向搜索场景的技能，帮助代理处理Microsoft 代码 reference相关任务，并沉淀可复用的工作流和实践经验。
-    category: search
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/microsoft-code-reference
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/microsoft-code-reference/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/microsoft-code-reference.tar.gz
-  - id: microsoft-docs
-    name: Microsoft 文档
-    description: >-
-      面向搜索场景的技能，帮助代理处理Microsoft 文档相关任务，并沉淀可复用的工作流和实践经验。
-    category: search
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/microsoft-docs
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/microsoft-docs/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/microsoft-docs.tar.gz
-  - id: searching-mlflow-docs
-    name: searching MLflow 文档
-    description: >-
-      用于检索 MLflow 相关资料、对象或记录，帮助代理快速获得上下文并定位需要的信息。
-    category: search
-    githubUrl: https://github.com/Kilo-Org/kilo-marketplace/tree/main/skills/searching-mlflow-docs
-    rawUrl: https://raw.githubusercontent.com/Kilo-Org/kilo-marketplace/main/skills/searching-mlflow-docs/SKILL.md
-    content: https://github.com/Kilo-Org/kilo-marketplace/releases/download/skills-latest/searching-mlflow-docs.tar.gz

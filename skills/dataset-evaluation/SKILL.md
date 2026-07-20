@@ -55,7 +55,7 @@ Follow the workflow shown below. Locate the dataset, check the file type, and re
    - Warn the user if their dataset is valid, but for a different strategy or model
    - Warn the user if their dataset is not valid for any strategy/model pair
    - If the user plans to finetune a model with the evaluated dataset, it needs to be uploaded to an S3 bucket in the same region as the planned training job (usually the default region). Warn the user if this is NOT the case.
-   - If the dataset is NOT in the necessary format, recommend transforming it using the dataset-transformation skill, wait for user confirmation, and update the plan based on their response
+    - If the dataset is NOT in the necessary format, recommend reformatting it before proceeding, wait for user confirmation, and update the plan based on their response
 
 ## Messages to the User
 

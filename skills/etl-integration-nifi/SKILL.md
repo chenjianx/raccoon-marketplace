@@ -42,7 +42,6 @@ When you receive a request:
    - **Architecture / flow design** -- Load `references/architecture.md` for FlowFile model, repositories, clustering, security, and NiFi 2.x changes
    - **Performance / best practices** -- Load `references/best-practices.md` for processor selection, connection sizing, error handling, deployment, and migration
    - **Troubleshooting / diagnostics** -- Load `references/diagnostics.md` for back pressure, memory pressure, processor errors, clustering issues, and performance tuning
-   - **Cross-tool comparison** -- Use the comparison in this file, then load a relevant marketplace skill such as [`adf-master`](../adf-master/SKILL.md) or [`ingesting-into-data-lake`](../ingesting-into-data-lake/SKILL.md) for product-specific details.
 
 2. **Gather context** -- Determine:
    - What is the data flow doing? (ingestion, routing, transformation, delivery, CDC)
@@ -207,5 +206,3 @@ Flows designed in NiFi deploy to MiNiFi agents via C2 Protocol (Command and Cont
 ## Cross-References
 
 - [`nifi-flow-layout`](../nifi-flow-layout/SKILL.md) -- layout and organization of NiFi flows
-- [`adf-master`](../adf-master/SKILL.md) -- Azure Data Factory implementation guidance
-- [`ingesting-into-data-lake`](../ingesting-into-data-lake/SKILL.md) -- AWS Glue implementation guidance
